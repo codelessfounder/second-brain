@@ -1,0 +1,213 @@
+/* 1. SpotifyMix @font-face */
+@font-face {
+  font-family: "SpotifyMix";
+  src: url("/fonts/SpotifyMix-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SpotifyMix";
+  src: url("/fonts/SpotifyMix-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SpotifyMix";
+  src: url("/fonts/SpotifyMix-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SpotifyMix";
+  src: url("/fonts/SpotifyMix-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 3. :root – design tokens (shadcn-friendly + brain) */
+:root {
+  --background: 40 20% 97%;
+  --foreground: 40 10% 5%;
+  --card: 0 0% 100%;
+  --card-foreground: 40 10% 5%;
+  --primary: 15 60% 55%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 40 10% 92%;
+  --secondary-foreground: 40 10% 15%;
+  --muted: 40 15% 92%;
+  --muted-foreground: 40 5% 45%;
+  --accent: 15 60% 55%;
+  --accent-foreground: 0 0% 100%;
+  --destructive: 0 84% 60%;
+  --border: 40 15% 88%;
+  --input: 40 15% 88%;
+  --ring: 15 60% 55%;
+  --radius: 0.5rem;
+  --sidebar: 40 20% 97%;
+  --sidebar-foreground: 40 10% 5%;
+}
+
+.dark {
+  --background: 40 10% 8%;
+  --foreground: 40 10% 96%;
+  --card: 40 10% 10%;
+  --card-foreground: 40 10% 96%;
+  --primary: 15 60% 55%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 40 10% 18%;
+  --secondary-foreground: 40 10% 96%;
+  --muted: 40 10% 18%;
+  --muted-foreground: 40 5% 55%;
+  --accent: 15 60% 55%;
+  --accent-foreground: 0 0% 100%;
+  --border: 40 10% 20%;
+  --input: 40 10% 20%;
+  --ring: 15 60% 55%;
+  --sidebar: 40 10% 8%;
+  --sidebar-foreground: 40 10% 96%;
+}
+
+/* 4. Base styles */
+@layer base {
+  * {
+    @apply border-brain-muted/30;
+  }
+  html,
+  body {
+    @apply h-full antialiased;
+  }
+  body {
+    @apply bg-brain-canvas text-brain-primary-dark font-sans;
+  }
+}
+
+/* 5. Utility layer – brain palette helpers + safe area */
+@layer utilities {
+  /* Safe area insets for notched devices (use with viewport-fit=cover) */
+  .safe-area-inset-t {
+    padding-top: env(safe-area-inset-top, 0px);
+  }
+  .safe-area-inset-b {
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  .safe-area-inset-l {
+    padding-left: env(safe-area-inset-left, 0px);
+  }
+  .safe-area-inset-r {
+    padding-right: env(safe-area-inset-right, 0px);
+  }
+  /* Hide scrollbar while keeping scroll behaviour (e.g. chat textarea) */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  .bg-brain-canvas {
+    @apply bg-[#FAF9F5];
+  }
+  .bg-brain-off-white {
+    @apply bg-[#F0EEE6];
+  }
+  .bg-brain-cream {
+    @apply bg-[#F5F4ED];
+  }
+  .text-brain-ink {
+    @apply text-[#050504];
+  }
+  .text-brain-muted {
+    @apply text-[#73726C];
+  }
+  .text-brain-accent {
+    @apply text-[#D97757];
+  }
+  .bg-brain-accent {
+    @apply bg-[#D97757];
+  }
+  .btn-brain-accent {
+    @apply bg-[#D97757] text-white hover:bg-[#c96847] border-none transition-colors;
+  }
+  .card-brain {
+    @apply bg-brain-white rounded-xl shadow-sm border border-brain-muted/20;
+  }
+}
+
+/* Resizable separator – drag cursor (react-resizable-panels) */
+[data-separator] {
+  cursor: col-resize;
+}
+
+/* 6. Keyframes */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Thinking dots – sequential bounce */
+@keyframes thinkingDot {
+  0%,
+  60%,
+  100% {
+    opacity: 0.35;
+    transform: translateY(0);
+  }
+  30% {
+    opacity: 1;
+    transform: translateY(-4px);
+  }
+}
+.thinking-dots span {
+  animation: thinkingDot 1.4s ease-in-out infinite;
+}
+.thinking-dots span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.thinking-dots span:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+/* PIN keypad – shake on wrong entry */
+@keyframes pinShake {
+  0%, 100% { transform: translateX(0); }
+  15% { transform: translateX(-8px); }
+  30% { transform: translateX(8px); }
+  45% { transform: translateX(-6px); }
+  60% { transform: translateX(6px); }
+  75% { transform: translateX(-3px); }
+}
+.animate-pin-shake {
+  animation: pinShake 0.5s ease-in-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

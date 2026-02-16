@@ -1,0 +1,17 @@
+{
+  "palette": {
+    "black": "#000000",
+    "ink": "#050504",
+    "surface-dark": "#111110",
+    "primary-dark": "#141413",
+    "surface": "#1F1E1D",
+    "elevated": "#232220",
+    "muted-dark": "#3D3D3A",
+    "muted": "#73726C",
+    "accent": "#D97757",
+    "off-white": "#F0EEE6",
+    "cream": "#F5F4ED",
+    "canvas": "#FAF9F5",
+    "white": "#FFFFFF"
+  }
+}
