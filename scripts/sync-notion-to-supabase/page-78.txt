@@ -1,0 +1,7 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/1f1348f4363480cbb515d95e4b9edcd9}} as of 2025-05-12T04:14:51.334Z:
+<page url="{{https://www.notion.so/1f1348f4363480cbb515d95e4b9edcd9}}">
+<properties>{"title":"Guide: Selling N8N Workflows"}</properties>
+<content>
+Deliver automated system on their n8n or you host and deliver results. Model 1 Build and Transfer: build workflow, export .json, docs and setup on their n8n Cloud or self-hosted; one-off or custom. Model 2 Managed Workflow: you host in your n8n, manage API keys and executions, share output (CSV, Sheets) weekly, charge monthly or per lead. Model 3 White-Label: clone workflow per client, deliver data as service, scale productized service. Package: Export from n8n, give .json, credentials list, example Sheet template, optional screen recording. Licensing: define one-time vs resale, hosting SLA and API limits. Bonus: Client Config node for reusable core with new parameters.
+</content>
+</page>

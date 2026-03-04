@@ -1,0 +1,11 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/200348f436348183b078de8b0f80ab3b}} as of 2025-05-27T03:49:34.526Z:
+<page url="{{https://www.notion.so/200348f436348183b078de8b0f80ab3b}}" icon="❓">
+<ancestor-path>
+<parent-data-source url="{{collection://200348f4-3634-8120-b62b-000b7417ffd6}}" name="Company Knowledge Base"/>
+<ancestor-2-database url="{{https://www.notion.so/200348f43634800d9395ff5611e143b8}}" title=""/>
+</ancestor-path>
+<properties>
+{"answer":"You can use websites like Doctolib to find English-speaking doctors. Many general practitioners (Hausarzt) and specialists in larger cities like Berlin also speak English.","date:updated_at:is_datetime":1,"date:updated_at:start":"2024-04-19T22:00:00.000Z","department":"HR","question":"How can I find English-speaking doctors in Germany?","tags":["Expat","Healthcare","HR"],"url":"{{https://www.notion.so/200348f436348183b078de8b0f80ab3b}}"}
+</properties>
+<blank-page>This page is blank and has no content.</blank-page>
+</page>

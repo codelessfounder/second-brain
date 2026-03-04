@@ -1,0 +1,31 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/30d348f43634807bbc2fc30369328c78}} as of 2026-02-20T03:21:40.392Z:
+<page url="{{https://www.notion.so/30d348f43634807bbc2fc30369328c78}}">
+<ancestor-path></ancestor-path>
+<properties>
+{"title":"Retention mechanics"}
+</properties>
+<content>
+<empty-block/>
+## 1. The Virtual Currency "Double Loop"
+Sweepstakes casinos use two distinct currencies to manage engagement:
+- **Gold Coins (GC):** These have no monetary value and are used for "social play." They are given away in massive quantities to make players feel "rich" and encourage long, risk-free sessions.
+- **Sweeps Coins (SC):** These are the "premium" currency that can be redeemed for real prizes. By giving small amounts of SC alongside GC purchases or via daily logins, the platform maintains the "chance to win big" excitement without requiring a direct wager.
+## 2. Daily Habit-Forming Loops
+The most effective retention tool is the **Daily Login Bonus**.
+- **The Streak Mechanic:** Many platforms (like Stake.us or Chumba) offer a "Daily Reload." If you log in every day, the reward might increase or provide a consistent drip of Sweeps Coins. This creates a powerful **sunk-cost fallacy**: players feel they are "leaving money on the table" if they don't log in for 30 seconds to claim their daily reward.
+- **Timed Rewards:** Some casinos use 4-hour or hourly "bonus wheels" or "treasure chests" to encourage multiple sessions throughout a single day.
+## 3. Social and Community Gamification
+Since these are technically "social casinos," they lean heavily into community features:
+- **Social Media "Scavenger Hunts":** Operators frequently post bonus codes or "share to win" contests on Facebook, Instagram, and X (Twitter). This forces players to keep the casino brand in their social feeds.
+- **Leaderboards and Tournaments:** Visible rankings create a "competitive social" environment. Seeing a peer win a large "SC jackpot" on a leaderboard triggers **social proof**, reinforcing the idea that winning is possible.
+- **Public Chat Rooms:** Real-time chat (common on platforms like Stake.us) allows players to celebrate wins together, making the experience feel less like a solitary game and more like a digital "hangout."
+## 4. VIP and Progression Systems
+Sweepstakes casinos have borrowed heavily from RPG (Role-Playing Game) mechanics:
+- **Tiered Progression:** Players earn "Experience Points" (XP) for every spin. Moving from "Bronze" to "Platinum" unlocks permanent perks like **Rakeback** (getting a % of your "house edge" back) or personalized monthly bonuses.
+- **The "Level-Up" High:** Every time a player levels up, they usually receive a burst of GC and SC. This provides a dopamine hit that isn't dependent on actually winning a game, but rather on *time spent* on the platform.
+---
+### Comparison of Retention Tactics
+---
+> **A Note on Design:** Many of these platforms are optimized for mobile-first "micro-sessions." The UI is designed to get you from the login screen to a game in under three taps, reducing friction and making it easy to play during a commute or a commercial break.
+</content>
+</page>

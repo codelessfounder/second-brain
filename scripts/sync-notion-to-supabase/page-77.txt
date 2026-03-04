@@ -1,0 +1,7 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/2fe348f4363480edb069ec53b5d8ce78}} as of 2026-02-05T06:32:31.519Z:
+<page url="{{https://www.notion.so/2fe348f4363480edb069ec53b5d8ce78}}">
+<properties>{"title":"Docker"}</properties>
+<content>
+Docker is like a shipping container for apps. 3 components: 1) Images – software/blueprint, update = newer version. 2) Containers – instance, start/stop/delete. 3) Volumes – data storage, permanent, plug into new containers. Core workflow: 1) Build (dockerfile recipe: Linux, Node.js, copy code). 2) Ship (image = static blueprint). 3) Run (container = living process). Cheat sheet: docker ps (status), docker logs -f n8n_recovered (errors), docker stop n8n_recovered, docker pull n8nio/n8n:latest, docker system prune. Port mapping: -p maps host port to container. Docker Compose: multiple containers, postgres, YAML config (services n8n image ports volumes).
+</content>
+</page>

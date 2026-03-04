@@ -1,0 +1,10 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/200348f436348184868fc4758e84d431}} as of 2025-05-27T03:49:34.530Z:
+<page url="{{https://www.notion.so/200348f436348184868fc4758e84d431}}" icon="❓">
+<ancestor-path>
+<parent-data-source url="{{collection://200348f4-3634-8120-b62b-000b7417ffd6}}" name="Company Knowledge Base"/>
+</ancestor-path>
+<properties>
+{"answer":"To access the company VPN, download the NordLayer client from the official website or through our internal portal at https://internal.starlens.ai/it/vpn. Use your StarLens credentials to log in, and make sure your Multi-Factor Authentication (MFA) is enabled through Okta. Once logged in, select the 'Berlin' server for optimal performance. For further instructions, refer to the VPN setup guide on the internal IT page.","question":"How do I access the company VPN?","department":"IT","tags":["VPN","NordLayer","IT Security"]}
+</properties>
+<blank-page>This page is blank and has no content.</blank-page>
+</page>

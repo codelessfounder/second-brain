@@ -1,0 +1,7 @@
+Here is the result of "view" for the Page:
+<page>
+<properties>{"title":"YouTube"}</properties>
+<content>
+Channel: YouTube. Content Pipeline database. Content Calendar view. Published Content view. Channel link youtube.com.
+</content>
+</page>

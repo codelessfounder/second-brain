@@ -1,0 +1,7 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/128348f43634805cb4cee576c2316a9a}} as of 2024-11-17T05:24:08.649Z:
+<page url="{{https://www.notion.so/128348f43634805cb4cee576c2316a9a}}">
+<properties>{"title":"Website Payment API"}</properties>
+<content>
+Bubble app as API; external sites embed button redirecting to payment screen. Enable API in Settings, API Workflows for reserve/pay. Embedded link with watch_id and dealer_id. Payment page reads params, Stripe. Dealer dashboard generates embed code. Flow: dealer embeds, customer clicks Pay with Watchcrow, redirects, pay. Same as page 57.
+</content>
+</page>

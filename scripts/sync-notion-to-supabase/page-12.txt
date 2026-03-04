@@ -1,0 +1,14 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/1fa348f436348051a321f1434373d0ef}} as of 2025-05-26T00:06:47.786Z:
+<page url="{{https://www.notion.so/1fa348f436348051a321f1434373d0ef}}">
+<ancestor-path>
+<parent-page url="{{https://www.notion.so/1f9348f436348070bf01d572a1024658}}" title="B180 CDI"/>
+</ancestor-path>
+<properties>
+{"title":"Mechanic checklist "}
+</properties>
+<content>
+I recently bought a b180 cdi 2010 and the lady I bought it off said that the transmission and servigin had been done this year by her brother, so I want to take it to a mechanic to get it checked over.
+1. General service 2. Transmission service 3. suspension? bouncing quite a lot when going over speed bumps 4. tyre pressure warning light comes on every time I drive 5. Overdue service notice 6. Run diagnostic 7. Sunroof - does it work? Can the bottom lip be closed? 8. Front suspension 9. Side mirror 10. Squeaking on the engine 
+Must-Do Within the First Week: Full logbook service, Timing chain inspection, Check all belts and pulleys, Inspect tyres brakes suspension, Scan for error codes. PRIORITY 2: Clean or replace EGR valve, Inspect intake manifold, Use diesel fuel system cleaner, Check turbo health.
+</content>
+</page>

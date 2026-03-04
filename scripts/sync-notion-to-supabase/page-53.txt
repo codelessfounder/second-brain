@@ -1,0 +1,15 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/145348f4363480eeac97e5fbeb00c88a}} as of 2024-11-25T01:35:24.894Z:
+<page url="{{https://www.notion.so/145348f4363480eeac97e5fbeb00c88a}}">
+<ancestor-path>
+<parent-page url="{{https://www.notion.so/145348f436348034a19be6ab9f786aba}}" title="Zaeger"/>
+<parent-page url="{{https://www.notion.so/128348f436348046945fc1976de69613}}" title="Feedback"/>
+<parent-page url="{{https://www.notion.so/119b1a9186a54717ac8325f590032c0e}}" title="Product"/>
+</ancestor-path>
+<properties>
+{"title":"Key learnings"}
+</properties>
+<content>
+### Key Learnings
+1. Integration Pain Points: manual updates between inventory, website, Xero; seamless integration would save time and reduce errors; double-selling due to delays. 2. Complex Workflows: Monday functional but lacks integrations. 3. Collaboration Needs: Slack-like internal updates; real-time notifications for sold items critical. 4. Advanced Features: detailed data (service costs, SKU, conditions), barcode/QR for transfer and stock. 5. Feedback: appreciate iterative development; mobile beneficial but not critical if web is strong. Biggest Problems: Manual processes; lack of integration; inventory visibility/overselling; limited collaboration; customization needs. Features they really need: Seamless integration (Xero sync, two-way website sync); Real-time notifications; Customizable fields; Barcode/QR support. Features they want: Mobile app (responsive + scanning suffices); Integrated photos; Advanced analytics; Internal collaboration. Assumptions and testable hypotheses: integration reduces errors 50%; notifications eliminate double-selling; dealers adopt if seamless; feedback improves retention 30%; scalability to jewellery/cars. Email to Shmuel: which data fields most important; screen recording/screenshots of custom fields.
+</content>
+</page>

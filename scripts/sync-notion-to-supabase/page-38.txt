@@ -1,0 +1,62 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/25d348f4363480f290dbc6d28d6a8849}} as of 2025-12-06T01:59:34.863Z:
+<page url="{{https://www.notion.so/25d348f4363480f290dbc6d28d6a8849}}">
+<ancestor-path></ancestor-path>
+<properties>
+{"title":"Future Products"}
+</properties>
+<content>
+<empty-block/>
+---
+shareable links:
+- Users can share their wins with people, creating free marketing 
+<empty-block/>
+---
+Sports betting
+---
+<empty-block/>
+high value item scanning (cars, watches, boats etc)
+<br>
+---
+- [x] Pricing using web search API (openAI)
+---
+- [x] Multiple cart items with one scan 
+- [ ] Geo locate web search results
+- [x] Update cart display pre game
+- [x] Update cart display during game to display cart, not cart_items
+- [ ] Update initial display
+- [x]  add disco ball to image analysis 
+- [ ] Outcomes need to be based on an RNG engine
+- [ ] Update font 
+- [ ] Update Google meta data 
+<empty-block/>
+<empty-block/>
+---
+Geo web search prices: user location (country, city, region, timezone) in OpenAI web_search_options.
+---
+Promotions for different brands - sneaker brands etc 
+<empty-block/>
+---
+Head to head social betting 
+<empty-block/>
+---
+cart item cross of the list - when a user wins the amount of an item, cross it off in the UI.
+---
+It doesn't really feel like you win or you lose - your balance just goes up/down
+---
+Personal analytics, shareable wins, Admin dashboard, Disco AI Pay agent, Disco API for ecommerce plugin.
+---
+the ability to gamble your win if you get 100% of your items
+AI RNG decider / AI PRNG
+search function to scour the internet for product to play for in Disco
+sweepstakes version for US - Disco Bucks (Stake.us vs stake.com)
+URL analysis for Desktop, Desktop version
+cart context: ghost progressbar, crossing off items, animated cart draining
+sounds, perplexity item search
+success of winning UI - why does it matter that I win?
+security updates: remove hardcoded credentials, RLS, rate limiting, session calculations server-side.
+Double or nothing after 100%, limits on bet amounts
+next games: Dice, Slots, Plinko
+Disco casino machines / internet cafe concept
+Disco coin (SHFL-style tokenomics), giveaways (LCMT+), discount game API for restaurants
+</content>
+</page>

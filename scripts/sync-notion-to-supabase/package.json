@@ -1,0 +1,15 @@
+{
+  "name": "sync-notion-to-supabase",
+  "private": true,
+  "type": "module",
+  "description": "Read Notion export JSON, embed with OpenAI, upsert into Second Brain Supabase",
+  "scripts": {
+    "sync": "node sync-from-export.js",
+    "sync:dry": "node sync-from-export.js --dry-run"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0",
+    "dotenv": "^16.4.5",
+    "openai": "^4.52.0"
+  }
+}

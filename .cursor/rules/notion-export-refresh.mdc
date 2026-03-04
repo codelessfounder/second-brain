@@ -1,0 +1,41 @@
+---
+description: When the user asks to refresh or continue the Notion export/sync, follow this flow
+alwaysApply: true
+---
+
+# Notion export refresh and continue
+
+When the user asks to **refresh the Notion export**, **re-run the export**, **sync Notion to Supabase**, or **continue with the next N pages**:
+
+## Full refresh
+
+1. **Scope:** Read in-scope teamspaces from `scripts/sync-notion-to-supabase/export-scope.json`.
+2. **Runbook:** Follow `docs/notion-export-runbook.md` Sections 1–2:
+   - Use Notion MCP: **notion-get-teams** → for each in-scope teamspace run **notion-search** (query_type `internal`, that teamspace_id, broad queries like "notes", "page", "doc", "content") → merge unique page IDs into a single ordered list.
+   - Build or update **manifest.json** in `scripts/sync-notion-to-supabase/` (array of `{ page_id, page_url, title, teamspace_id }`). Index i = file page-(i+1).txt.
+   - For each manifest entry, call **notion-fetch** and save the full response **text** to **page-NN.txt** (NN = 1-based index zero-padded, e.g. 01, 02, … 88).
+   - Run **node build-export.js** in `scripts/sync-notion-to-supabase/` to produce `notion-export.json`.
+3. **Sync:** From repo root run **npm run sync:notion**. For replace-all (DB exactly matches export), run **npm run sync:notion -- --replace**.
+4. Optionally update **export-progress.json** (page_files_with_content, export_page_count, saturation_note).
+
+## Continue with next N pages
+
+When the user says e.g. "continue with 15 pages" or "fetch the last pages":
+
+1. Read **export-progress.json** and/or check which **page-NN.txt** files are missing in `scripts/sync-notion-to-supabase/`.
+2. From **manifest.json**, take the entries for those indices; for each, call **notion-fetch** and write the response **text** to the corresponding **page-NN.txt**.
+3. Run **node build-export.js** in `scripts/sync-notion-to-supabase/`.
+4. Run **npm run sync:notion** from repo root (or with **--replace** if this is now the only source of truth).
+5. Update **export-progress.json**: add the new page numbers to page_files_with_content, set export_page_count, set saturation_note (e.g. "~N pages left" or "Export complete").
+
+## Sync only
+
+If the user only wants to run the sync (export file already exists): run **npm run sync:notion** from the repo root. Add **--replace** if they want to replace all RAG content with the current export.
+
+## Paths
+
+- Manifest: `scripts/sync-notion-to-supabase/manifest.json`
+- Page files: `scripts/sync-notion-to-supabase/page-01.txt` … `page-NN.txt`
+- Build: `scripts/sync-notion-to-supabase/build-export.js` → `notion-export.json`
+- Sync: from repo root `npm run sync:notion` runs `sync-from-export.js` with `notion-export.json`
+- Progress: `scripts/sync-notion-to-supabase/export-progress.json`

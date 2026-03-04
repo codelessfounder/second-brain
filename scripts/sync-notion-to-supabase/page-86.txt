@@ -1,0 +1,7 @@
+Here is the result of "view" for the Page:
+<page>
+<properties>{"title":"GLI Product test"}</properties>
+<content>
+Submission requirements: GLI-Comp-Sub-Req-V1.2.pdf (gaminglabs.com). When searching for a testing lab, consider: Are you currently approved to provide game testing, certification, and compliance support in (desired) market? Can you provide a referral client, case study, upfront pricing, local contact? Can you perform functionality evaluations for regulated or non-regulated products and produce a report that proves my product performs as described? Contact: Richard Howarth, Chief business officer, r.howarth@gaminglabs.com, +61499777537.
+</content>
+</page>

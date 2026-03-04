@@ -1,0 +1,16 @@
+[
+  {
+    "page_id": "1ba348f4-3634-81f2-93d3-f1bcc0416e62",
+    "page_url": "https://www.notion.so/1ba348f4363481f293d3f1bcc0416e62",
+    "title": "Databases",
+    "content": "Short example content. In a real export, this would be the full page body from Notion (plain text or Markdown)."
+  },
+  {
+    "page_id": "2ff348f4-3634-80a5-9078-fb9dbd280b39",
+    "page_url": "https://www.notion.so/2ff348f4363480a59078fb9dbd280b39",
+    "title": "Model Context Protocol (MCP)",
+    "content": "MCP lets AI assistants connect to external tools and data. You configure MCP servers in Cursor; the AI can then call APIs, query databases, and use services on your behalf.",
+    "teamspace_id": "134849a8-d323-4b8f-8f91-ce22ccf5b337",
+    "object_type": "page"
+  }
+]

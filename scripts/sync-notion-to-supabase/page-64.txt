@@ -1,0 +1,7 @@
+Here is the result of "view" for the Page:
+<page>
+<properties>{"title":"Feedback"}</properties>
+<content>
+Zaeger feedback table: Ben (hover analytics, lighter colours, upgrade billing DONE, walkthrough, Share USP); Rob (selling straightaway, band stretch, share price toggle, collectors no price, unknown year/serviced); Junto (seller verification, comments, shared_watch covers details); Mick and Omar (stock, website, tax, C24 risks, sharing profit); Ziggy (shared_watch covers details); Mike (add to inventory skip button). Use Loomflows for data. FAQ: How do payments work? 19/12/24: onboarding phone no hyphens, Rest of world to country list, year/serviced delete, used to pre-owned, polished/signs/accessories delete, graph and analytics not working, watch location and purchase date not auto-filled. Question: how do you keep team updated when watch changes?
+</content>
+</page>

@@ -1,0 +1,18 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/2ff348f4363480a59078fb9dbd280b39}} as of 2026-02-06T04:03:03.562Z:
+<page url="{{https://www.notion.so/2ff348f4363480a59078fb9dbd280b39}}">
+<properties>{"title":"Model Context Protocol (MCP)"}</properties>
+<content>
+# MCP Summary — What It Is and How It Works
+**MCP (Model Context Protocol)** is an open protocol that lets AI assistants (like Cursor) connect to external tools and data sources. Instead of the AI only reading your codebase, it can call APIs, run CLI tools, query databases, and use other services on your behalf.
+In practice: you configure "MCP servers" (e.g. Supabase, n8n, a browser). Cursor starts those servers and exposes their capabilities as **tools** the AI can use in the chat.
+## How Cursor Uses MCP
+1. **Config file** — You define MCP servers in a JSON config.
+2. **Cursor starts servers** — When you open a project, it runs the configured commands.
+3. **Tools become available** — Each server exposes tools (e.g. list_projects, execute_sql, list_workflows).
+4. **No code in your repo** — MCP runs outside your app.
+## Why Use MCP?
+- **Live data** — Ask the AI to check your Supabase schema, run a query, or list edge functions and get real results.
+- **Automation** — Use n8n MCP to create or update workflows from the editor.
+- **Security** — Tokens and API keys stay in your MCP config (user or project level), not in the codebase.
+</content>
+</page>

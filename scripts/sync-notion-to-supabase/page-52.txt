@@ -1,0 +1,20 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/159348f4363480cb9560dcd62bf2b6dd}} as of 2024-12-11T03:58:29.993Z:
+<page url="{{https://www.notion.so/159348f4363480cb9560dcd62bf2b6dd}}">
+<ancestor-path>
+<parent-page url="{{https://www.notion.so/119b1a9186a54717ac8325f590032c0e}}" title="Product"/>
+</ancestor-path>
+<properties>
+{"title":"Feedback Loop"}
+</properties>
+<content>
+<table>
+<tr><td>**Stage**</td><td>**Actions**</td><td>**Timeframe**</td><td>**OKRs**</td></tr>
+<tr><td>**1. Gather Feedback**</td><td>Aggregate from in-app prompts, support tickets, social, surveys. Prioritise by frequency, impact, roadmap.</td><td>Ongoing</td><td></td></tr>
+<tr><td>**2. Plan Improvements**</td><td>Categorise into quick wins, medium effort, long-term. Sprint planning.</td><td>1-2 days</td><td>Align priorities with user needs; define X high-priority tasks; 90% team alignment.</td></tr>
+<tr><td>**3. Build the Solution**</td><td>Develop, test, share progress, QA.</td><td>1-2 weeks per sprint</td><td>Complete X tasks &lt;5% rollback; 95% QA pass.</td></tr>
+<tr><td>**4. Launch Updates**</td><td>Release to production/beta. Release notes via app and email.</td><td>End of sprint</td><td></td></tr>
+<tr><td>**5. Share on Social Media**</td><td>Post updates, visuals, tag users.</td><td>1-2 days post-launch</td><td></td></tr>
+<tr><td>**6. Monitor Feedback**</td><td>Track responses and engagement. Reassess and feed into next cycle.</td><td>1 week post-launch</td><td></td></tr>
+</table>
+</content>
+</page>

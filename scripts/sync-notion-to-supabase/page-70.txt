@@ -1,0 +1,7 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/149348f436348094a62ac1bd7ae98d6c}} as of 2024-11-25T04:11:46.453Z:
+<page url="{{https://www.notion.so/149348f436348094a62ac1bd7ae98d6c}}">
+<properties>{"title":"How to:"}</properties>
+<content>
+Creating a memecoin: 1) Choose blockchain (Ethereum, BSC, Solana, Polygon). 2) Define token (name, symbol, supply, decimals, burn, liquidity). 3) Code: use Remix/TokenMint/Moralis or Solidity with OpenZeppelin. 4) Deploy (testnet then mainnet, MetaMask, gas). 5) Add liquidity on Uniswap/PancakeSwap. 6) Market: Twitter Telegram Reddit, memes, airdrops, listings. 7) Manage: roadmap, audit CertiK/Trail of Bits. Tools: Remix, dx.app, OpenZeppelin, Etherscan/BscScan.
+</content>
+</page>

@@ -1,0 +1,7 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/2aa348f43634803f9095f20ebe8c4586}} as of 2025-11-14T03:15:53.142Z:
+<page url="{{https://www.notion.so/2aa348f43634803f9095f20ebe8c4586}}">
+<properties>{"title":"Venture Capital"}</properties>
+<content>
+Framing a conversation with a VC: Correct: I'm giving you the opportunity to be a part of the unique insight I have into the world, while it's still cheap. Incorrect: I need them to give me money. An initial conversation with a VC should be a story, not a pitch. What unique insight do you have into the world? Deal timeline: Outreach, Initial conversation: 10-15 mins, Follow up/deep dive, VC diligence, Term sheet. First Conversation (Discovery) Goal: Spark interest. Follow-Up: Send deck, product demo. Second Meeting: Deep dive. Partner/IC Meeting: Secure internal approval. Diligence, Term Sheet, Legal and Closing, Funds Wired. Typical pre-seed: 5-7 weeks from first conversation to money in the bank. Chris Joyce CEO Gusha: Stop playing by the VC handbook. VIM = vested interest market. Only about 15% get formal VC capital in the beginning; 85% get capital around MVP stage using VIM.
+</content>
+</page>

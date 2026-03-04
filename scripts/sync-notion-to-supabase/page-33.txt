@@ -1,0 +1,85 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/ba93a704a9854dc4bff471dc3cb6b09f}} as of 2025-05-05T00:55:00.043Z:
+<page url="{{https://www.notion.so/ba93a704a9854dc4bff471dc3cb6b09f}}">
+<ancestor-path></ancestor-path>
+<properties>
+{"title":"AI"}
+</properties>
+<content>
+<page url="{{https://www.notion.so/128348f4363480b0b261d586e35d000d}}">Image Generation</page>
+<page url="{{https://www.notion.so/ba46eb9b12ad4cb2a8ea37b22a190596}}">Evangelism </page>
+<page url="{{https://www.notion.so/db9b2eed998e40419fa8839335cad058}}">Classification (Framework)</page>
+<page url="{{https://www.notion.so/d90eefe17e434b72b9e66620fd8de5a3}}">AI Assistant</page>
+<page url="{{https://www.notion.so/78e8cb9187b54bd2b1382953e4eecdd6}}">Research</page>
+<page url="{{https://www.notion.so/128348f4363480f18d68d2da186ad9c1}}">Prompt Engineering - OPENAI </page>
+<page url="{{https://www.notion.so/19e348f436348071bd24db1525cc2138}}">Prompt template</page>
+<page url="{{https://www.notion.so/1e4348f43634805a9100e49a85cef213}}">APP UX flow</page>
+---
+<empty-block/>
+CustomGPT.AI OR Cassidy
+https://www.youtube.com/watch?v=JqWGFG346tc
+Yellowfin.ai helps business implement AI into to elminate tedious workflows so professional can focus on complex problem solving. Yellowfin hypothesises that AI will eliminate some of the laborious tasks of accountants to allow them to focus on more complex advisory work.
+Marketing bot:
+Onboarding bot
+Ad results outcome bot
+(Results bot) text or email
+Assistants API in ChatGPT
+AI Assistant requirements:
+1. Data Scraping:
+	- Google Drive
+	- Notion
+	- Uploaded docs
+2. Knowledge base
+3. Domain
+4. Landing Page for AI Assistant
+5. Internal Assistant
+6. External Assistant
+7. Workflows
+8. Chrome Extensions
+Bot Considerations:
+1. Information accuracy:
+	- Only information that we feed it will be outputted to users. Not a generic ChatGPT lookalike
+2. Voice
+	- Assistant is trained on the voice of client. Users will feel like they are talking to the client. Employees feel like they are getting valuable information for a reliable source
+3.
+**Cassidy.ai**
+Business chatbot for Australian businesses.
+Use cases:
+1. Internal Q&A
+2. Content creation
+3. Customer Support Automation
+Customers:
+1. Businesses
+2. Influencers
+3. Onlyfans
+If you can do this for businesses, why can't you do this for people and their memories? Remember a loved one forever by uploading their details.
+Why can't influencers put AI versions of themselves in their BIO so they can share all their knowledge with their followers?
+Explore.globe.engineer
+Two Benefits
+Internal organisation
+- Organise data
+- Train staff
+-
+ai agency:
+1. Cassidy
+2. Aminos
+AI for Accountants:
+Benefits:
+- AI will automate mundane tasks
+- AI will reduce errors
+- AI will free up accountants time to focus on higher value advisory roles
+Objections:
+- Too new, unknown - **Be a contrarian**
+- Not secure enough - **Your data is stored with us, not with OpenAI**
+- Offers incomplete, misleading or wrong answer - **This is true if you use the off the shelf ChatGPT, but we train our AI assistants purely based on the information you give us.**
+- Data security and privacy concerns - **Remember how no one said they were going to use instagram?**
+The Big 4 have invested in AI heavily: Predictive analytics, Auditing, Tax compliance, Client insights.
+How can smaller firms use AI?
+1. Bookkeeping automation
+2. Client communication
+3. Data analysis and back office functions
+4. Fast and accurate tax research
+Accounting & Workflows: Time savings, Improved client service, Scalability.
+11 custom GPT ideas for accountants: Tax Code Query Assistant, Automated Financial Reporting, Real-time Expense Classification, Audit Trail Creation, Dynamic Financial Forecasting, Receivables Management Optimization, Invoice Data Extraction, Client Financial Health Monitoring, Regulation Compliance Checker, Payroll Processing Automation, Custom Financial Analysis.
+Building an AI app: Learn to Build an AI app with Bubble
+</content>
+</page>

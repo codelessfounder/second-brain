@@ -1,0 +1,7 @@
+Here is the result of "view" for the Page:
+<page>
+<properties>{"title":"Investor Q&A"}</properties>
+<content>
+Investor Q&A. Market and Vision: Isn't the online casino market saturated? Disco reframes gaming around real-world purchases; contextualisation unlocks Gen Z/Millennials. Why Disco instead of Stake/DraftKings? Disco makes play personal by linking outcomes to things users are already buying; new category of commerce-driven entertainment. TAM/SAM/SOM: TAM ~$100B+ global online gambling; SAM $28B players 18-35; SOM in 5 years 0.5-2% of SAM ($140M-$680M). Product: Isn't this just gambling with a new skin? Framing is everything; outcomes feel personal. Moat: AI vision pipeline; UGC moat. Monetisation: fixed house edge ~10-12%; CAC ~$120, ARPU ~$400; payback 3-4 months. Legal: entertainment gaming not payment processor; crypto non-cashable; geo-fencing, Anjouan/Curacao/Philippines; session limits, cooling-off, provably fair. Traction: early demo +12% checkout engagement; waitlist growing. Distribution: UGC, influencers, Discord/TikTok. Team: founder-led, technical and product. VC objection handling table (Regulatory, Ethical, Market Adoption, Defensibility, Unit Economics). VC selling points table (Untapped Category, Proven Monetisation, Viral Growth, AI Defensibility, Massive Market, Gen Z Fit). Founder Rhetoric: Big Market + Clear Wedge, Defensible Moat via AI, User Growth Engine, Why $5M / Why Now, Why $30M Cap is Fair. Concise Investor-Safe Justification.
+</content>
+</page>

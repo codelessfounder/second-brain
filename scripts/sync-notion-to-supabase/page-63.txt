@@ -1,0 +1,7 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/122348f436348056a23ae2ca3c658026}} as of 2024-12-19T02:10:59.253Z:
+<page url="{{https://www.notion.so/122348f436348056a23ae2ca3c658026}}">
+<properties>{"title":"Future products"}</properties>
+<content>
+Subpages: Website Payment API (x2), Teams (seats), Deposits. Dealer Inventory management, B2C Pay for a watch, Monoova, Website Payment API, P2P, Archive (Watch market analytics), Watch swaps, Sourcing submission, Watchcrow AI, Marketplace, Auctions, Teams (employees, performance), Leaderboards, Monthly sales round-up PDF Email, Landing page, Notifications, Localise US UK Europe, Support AI, Automated instructionals, Order management, AI Support chatbot, Physical QR codes, previously sold, AI add to inventory, Cars Art Jewellery, Live on website API, generate website for dealers iframe, Whitelabel website. How can Watchcrow be a source of wealth creation?
+</content>
+</page>

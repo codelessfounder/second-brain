@@ -1,0 +1,15 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/2bd348f43634805b9000f119adc949f4}} as of 2025-12-02T01:05:04.566Z:
+<page url="{{https://www.notion.so/2bd348f43634805b9000f119adc949f4}}">
+<ancestor-path>
+<parent-page url="{{https://www.notion.so/25a348f43634801fad47c3f90fb6b78a}}" title="Disco Whitepaper"/>
+</ancestor-path>
+<properties>
+{"title":"Executive Summary - Disco"}
+</properties>
+<content>
+<empty-block/>
+**The world's first online casino where players can bet on everyday purchases**
+---
+Insights: Commodification of gambling – Influencer gambling as entertainment (Stake, Rainbet, Duelbits). Betting real life (Polymarket, Kalshi). Loot box generation (Gen Z). Founder's hypothesis: People are willing to gamble to pay for purchases; emotional reframing (win = free item, lose = missed bargain). Product: Disco – scan/upload item, AI identifies and extracts price, play Coin Flip/Mines/Dice; win = double item stake, lose = lose stake. Technology moat: AI-powered purchase contextualisation (image recognition, price extraction, contextual display) – contextual wagering. Virality: every outcome is shareable content. How we test: Play frequency, purchase context attachment, scan-to-play time, social lift. GTM: POV content, paid influencers, hype-style chaos, community clips. Funding: $700k – Engineering $300k, Marketing $150k, Licensing & Legal $150k (Anjouan), Bankroll $100k.
+</content>
+</page>

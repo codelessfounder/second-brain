@@ -1,0 +1,7 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/5401e6ad108747c789a3b3015a71a888}} as of 2024-04-29T06:33:00.591Z:
+<page url="{{https://www.notion.so/5401e6ad108747c789a3b3015a71a888}}">
+<properties>{"title":"Agile Development"}</properties>
+<content>
+Lean Startup: Sprints (one month iteration cycles), user stories (describe feature from POV of customer). Benefits: focus on customer, prioritisation, batch sizes of 1-2 days for quick direction change. Problem: how do you know features built are contributing to growth? Innovation accounting: 1. Use MVP to establish real data 2. Tune the engine from baseline towards ideal 3. Pivot or persevere. Kanban: Backlog, In Progress, Built, Validated. Stories cannot progress if next column is full. Validated learning = knowing whether the story was a good idea. Cohort & split tests: different versions offered at same time; observe behaviour between groups. Pivot or persevere: structured course correction to test new fundamental hypothesis. "A startup's runway is the number of pivots it can still make." Different pivots: Zoom-in, Zoom-out, Customer segment, Customer need, Platform, Technology. Lean Startup summary: validated learning, scientific experimentation, shortening development cycles, finding what customers really want.
+</content>
+</page>

@@ -1,0 +1,7 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/146348f4363480abbf29d8ba83898205}} as of 2024-11-22T01:34:43.788Z:
+<page url="{{https://www.notion.so/146348f4363480abbf29d8ba83898205}}">
+<properties>{"title":"Call notes:"}</properties>
+<content>
+<empty-block/>
+</content>
+</page>

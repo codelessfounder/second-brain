@@ -1,0 +1,7 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/16c348f43634805fbc6de41300b320f3}} as of 2025-01-13T03:15:24.043Z:
+<page url="{{https://www.notion.so/16c348f43634805fbc6de41300b320f3}}">
+<properties>{"title":"Feature: Notifications"}</properties>
+<content>
+Email notifications: when a watch is created (add to inventory step 5) DONE; when watch details edited; when inventory status changed DONE; when watch sold DONE; when new note added DONE. How: Email, Notification Centre. Postmark. Ticket turnaround 48hrs.
+</content>
+</page>

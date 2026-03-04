@@ -1,0 +1,19 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/257348f43634801a89fcd51af50feaf5}} as of 2025-08-22T06:08:55.614Z:
+<page url="{{https://www.notion.so/257348f43634801a89fcd51af50feaf5}}">
+<ancestor-path>
+<parent-page url="{{https://www.notion.so/b192c34655774448b57be6a9012500ca}}" title="Business"/>
+</ancestor-path>
+<properties>
+{"title":"CV Chrome Extension "}
+</properties>
+<content>
+<empty-block/>
+Problem: filling out resume forms on websites sucks. 
+SOlution: AI extension had context over your Resume. - it scans the page's subheadings and fills in your details. - for short answer questions it uses AI to generate answers based on the context of your resume
+An AI version of chrome's autofill 
+use cases: job applications, personal details 
+Filla AI 
+The benefit - people will be able to apply for jobs so much faster and therefore get hired more quickly. 
+Distribution: anti job memes: flash bang job application post 
+</content>
+</page>

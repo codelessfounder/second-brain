@@ -1,0 +1,7 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/15c348f4363480168876c6b6c915565c}} as of 2024-12-14T00:59:08.818Z:
+<page url="{{https://www.notion.so/15c348f4363480168876c6b6c915565c}}">
+<properties>{"title":"Launch Strategy"}</properties>
+<content>
+Launch and market Givecoin (GIVE): Effective Altruism + memecoin virality. Mission: memecoin that makes giving fun, transparent, impactful. Tokenomics: 1B GIVE, 20% charity, 30% community, 30% liquidity, 10% team, 10% marketing; 2% to charity, 1% burn, 1% redistribution per tx. Go-to-market: Pre-launch (whitepaper, website, Twitter Reddit Telegram Discord, pre-hype contests, deploy ERC-20/BEP-20, audit, EA partnerships); Launch (airdrops, presale, DEX listing, PR, charity vote, AMA); Post-launch (governance, gamify giving, impact reports, more charities, CEX listings, staking, NFT marketplace). Sample roadmap: Phase 1 Pre-launch, 2 Launch, 3 Post-launch, 4 Scaling.
+</content>
+</page>

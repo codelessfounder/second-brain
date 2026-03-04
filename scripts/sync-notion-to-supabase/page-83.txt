@@ -1,0 +1,7 @@
+Here is the result of "view" for the Page:
+<page>
+<properties>{"title":"Fundraise"}</properties>
+<content>
+Subpages: VIM/Investors, Compliance Strategy, Milestones, Customer Acquisition Strategy, Investor Q&A, Cap Table, Traction, Origin story, Financials, Intro meeting template, Outreach templates. Assets: Product demo, Pitch deck, Financial projections, Use of funds doc, Manifesto, Compliance Strategy, Milestones, Customer acquisition strategy. Things to do before fundraise: UGC product video, Product demo, Finalise Manifesto, Regulation strategy, Update URL and Favicon. Framing an early investor conversation: unique insight, how I came across it, hypothesis, product, GTM, metrics, how much I need. Questions and outcomes. Sam Kamani and Przemek questions. Ideal roadmap. Product Alignment checklist. Marketing strategy. P's Idea of a product. News and things to discuss.
+</content>
+</page>

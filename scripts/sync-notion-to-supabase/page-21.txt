@@ -1,0 +1,15 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/128348f4363480f18d68d2da186ad9c1}} as of 2025-03-25T03:52:35.127Z:
+<page url="{{https://www.notion.so/128348f4363480f18d68d2da186ad9c1}}">
+<properties>{"title":"Prompt Engineering - OPENAI "}</properties>
+<content>
+Source: https://platform.openai.com/docs/guides/prompt-engineering
+1. System messages - Use a combination of system and user messages for more accurate LLM outputs
+2. Write clear instructions - Include details in your query to get more relevant answers. Use delimiters to clearly indicate distinct parts of the input. Specify the steps required to complete a task. Provide examples (few-shot prompting).
+3. Provide reference text - Instruct the model to answer with citations from a reference text.
+4. Split complex tasks into simpler subtasks.
+5. Give the model time to "think" - Instruct the model to work out its own solution before rushing to a conclusion.
+6. Use external tools - Use embeddings-based search to implement efficient knowledge retrieval. Use code execution to perform more accurate calculations or call external APIs.
+7. Test changes systematically.
+Supplementary: Clarify the task; Provide examples; Use precise language; Break down complex tasks; Reference supporting materials; Specify persona or tone; Encourage step-by-step reasoning.
+</content>
+</page>

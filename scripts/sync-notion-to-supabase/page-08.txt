@@ -1,0 +1,19 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/de9d14fa02a94efabbd5b70eaa7525c8}} as of 2025-10-15T05:24:57.267Z:
+<page url="{{https://www.notion.so/de9d14fa02a94efabbd5b70eaa7525c8}}" icon="📣">
+<ancestor-path>
+<parent-page url="{{https://www.notion.so/ed29367d4aab41209b44f05f42b661ee}}" title="Interests"/>
+</ancestor-path>
+<properties>
+{"title":"Dating"}
+</properties>
+<content>
+Prompts: "Who's going to meal prep with me on Sunday?" Okay yes you're hot but let me see what books are on your bookshelf. Ideally I'd like to your brain to be fully developed.
+**Qualities of a girl**
+1. Execution - ambition is no longer enough
+2. Communication - this is a bare minimum. Consistency is key.
+3. A meaningful relationship - they must make me want to live through pain and sadness with them, as well as happiness
+I'm not prepared to continue what we're doing if you have no interest in dating.
+I really hope you do get therapy and sort out your mental health.
+ideal dates: supercar road trip through europe, drive around the Nurburgring together.
+</content>
+</page>

@@ -1,0 +1,7 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/119b1a9186a54717ac8325f590032c0e}} as of 2025-07-09T04:50:00.036Z:
+<page url="{{https://www.notion.so/119b1a9186a54717ac8325f590032c0e}}">
+<properties>{"title":"Product"}</properties>
+<content>
+OKRs for Watchcrow: eliminate inventory discrepancies; 90% accuracy, 10 dealers, 75% fewer complaints. Solutions: Real-Time Inventory API, Website Plugin, Reserve-and-Hold, Offline Sync, Automated Alerts. Next: Photos & videos, Localise UK/US/EU/Asia. Notifications: Team notes, Invoices, API, QR Codes. Zaeger requirements: Notes/Updates, pre-owned, purchase date, warranty, serial number, price, Live on Website. To do: Feedback Loop, Edit Photos, Download QR Code, Notifications, Mobile, Simplify add to inventory. API: wordpress, WooCommerce, Shopify. New add to inventory: Basic fields, condition, box and papers, one photo, buy/sell price. New strategy: build API, offers feature, marketplace.
+</content>
+</page>

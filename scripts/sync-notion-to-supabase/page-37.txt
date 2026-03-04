@@ -1,0 +1,75 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/196348f4363480648630d72cf6c7c317}} as of 2025-08-24T06:41:39.334Z:
+<page url="{{https://www.notion.so/196348f4363480648630d72cf6c7c317}}">
+<ancestor-path></ancestor-path>
+<properties>
+{"title":"Research"}
+</properties>
+<content>
+<page url="{{https://www.notion.so/19a348f4363480989aadfdb412fd49f3}}">Legal</page>
+<page url="{{https://www.notion.so/19a348f4363480c28517e15d86b253b1}}">Customers</page>
+<page url="{{https://www.notion.so/208348f4363480ab819cf1fdb420f2b5}}">Online Casino outcomes:</page>
+<page url="{{https://www.notion.so/251348f436348045aeb5eb08f1238908}}">Psychology</page>
+<empty-block/>
+<empty-block/>
+slot machine predictability:
+[PROOF slot machines aren't totally random]({{https://www.youtube.com/watch?v=omJvejjOvB0}})
+<empty-block/>
+Minimum RTP in Australia:
+<table>
+<colgroup>
+<col width="235.3344930013021">
+<col width="235.3344930013021">
+<col width="235.3344930013021">
+</colgroup>
+<tr>
+<td>Jurisdiction</td>
+<td>Minimum RTP</td>
+<td>Notes</td>
+</tr>
+<tr>
+<td>**New South Wales (NSW)**</td>
+<td>85%</td>
+<td>Applies to all gaming machines.</td>
+</tr>
+<tr>
+<td>**Victoria**</td>
+<td>85%</td>
+<td>General minimum; Crown Melbourne may have higher standards.</td>
+</tr>
+<tr>
+<td>**Queensland**</td>
+<td>85%</td>
+<td>Applies to pubs and clubs; casinos may have higher requirements.</td>
+</tr>
+<tr>
+<td>**South Australia**</td>
+<td>87.5%</td>
+<td>As specified in state regulations.</td>
+</tr>
+<tr>
+<td>**Tasmania**</td>
+<td>87%</td>
+<td>As per the Tasmanian Appendix to the National Standard.</td>
+</tr>
+<tr>
+<td>**Australian Capital Territory**</td>
+<td>87%</td>
+<td>Applies to all gaming machines.</td>
+</tr>
+<tr>
+<td>**Northern Territory**</td>
+<td>85%</td>
+<td>Applies to all gaming machines.</td>
+</tr>
+<tr>
+<td>**Western Australia**</td>
+<td>90%</td>
+<td>Applies exclusively to machines at Crown Perth; EGMs are restricted elsewhere.</td>
+</tr>
+</table>
+<empty-block/>
+Crane machines in Australia: regulated under workplace health and safety as amusement devices, not gambling legislation.
+Gaming Licence: Curaçao sub-licence for crypto coin flip game. Steps: Choose Master Licence Holder (Antillephone, etc.), Set up corporate structure, Prepare business plan, Apply for sub-licence, Host on licensed server in Curaçao, Pay fees (~$4K–$6K application, ~$18K–$25K first year), Display licence and responsible gaming. Geo-block AU, UK, US.
+RNG video and PRNG (pseudorandom) explanation. How online gambling broke America: scarcity loop, find whales, TikTok influencers. Stake guide. Online gambling TAM: 95.5b USD now, 257b USD by 2034.
+</content>
+</page>

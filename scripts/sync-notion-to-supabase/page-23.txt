@@ -1,0 +1,25 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/1ad348f4363480a3839bc24a0fde8f60}} as of 2025-05-22T08:50:03.508Z:
+<page url="{{https://www.notion.so/1ad348f4363480a3839bc24a0fde8f60}}">
+<properties>{"title":"Cursor"}</properties>
+<content>
+## Prompt Structure
+1. Context (Explain the broader task)
+2. File/Component Name (Specify where changes should be made)
+3. Implementation Details (Step-by-step instructions)
+4. Constraints (What should not be changed)
+5. Expected Output (Define the ideal result)
+6. Additional Notes (Edge cases, UX considerations)
+## Prompt Rules
+1. Don't start from scratch - Use V0/Lovable/Bolt to generate screens then bring into Cursor for refinement.
+2. Define Prompt Parameters - Use Project Rules per filetype (SQL vs JS). Sync across team via GitHub.
+3. Sync relevant docs for better suggestions - Next.js, Supabase, Stripe. Gives Cursor deeper context.
+4. Use @Codebase to query the entire repo - trace bugs, locate functions.
+5. Set up MCP for schema access + automation - Fetch tables dynamically, automate schema edits.
+6. Auto-generate Row-Level Security with AI.
+7. Enable YOLO Mode for speed - Commands run instantly without confirmation.
+8. Use screenshots to improve UI - Drag into Cursor, prompt "Make this UI cleaner and more modern".
+9. Save your best code in .md files + Notepad for future prompting.
+Treat Cursor like a teammate, not a magic trick. Guide it right, and it will ship faster.
+Change code: Command + K. Query code: Command + L. Scan code: Command + enter.
+</content>
+</page>

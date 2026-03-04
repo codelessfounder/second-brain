@@ -1,0 +1,13 @@
+{
+  "teamspaces": [
+    {"id": "af339680-2a72-4fc5-93db-32bd941218b5", "name": "Me"},
+    {"id": "134849a8-d323-4b8f-8f91-ce22ccf5b337", "name": "Harry's Odyssey"},
+    {"id": "197348f4-3634-81d2-bc65-0042b538d1bb", "name": "Disco"},
+    {"id": "6d69f554-c466-4ce0-ad18-c9d6b1d02870", "name": "Watchcrow"}
+  ],
+  "exclusions": {
+    "skip_archived": true,
+    "skip_databases": false,
+    "notes": "Active teamspaces only (Me, Harry's Odyssey, Disco, Watchcrow). To change, run notion-get-teams in Cursor and edit."
+  }
+}

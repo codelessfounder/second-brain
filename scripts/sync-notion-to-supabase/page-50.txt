@@ -1,0 +1,14 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/145348f436348067967fe5338b474638}} as of 2024-11-21T00:50:16.277Z:
+<page url="{{https://www.notion.so/145348f436348067967fe5338b474638}}">
+<ancestor-path>
+<parent-page url="{{https://www.notion.so/145348f436348034a19be6ab9f786aba}}" title="Zaeger"/>
+<parent-page url="{{https://www.notion.so/128348f436348046945fc1976de69613}}" title="Feedback"/>
+<parent-page url="{{https://www.notion.so/119b1a9186a54717ac8325f590032c0e}}" title="Product"/>
+</ancestor-path>
+<properties>
+{"title":"November transcript"}
+</properties>
+<content>
+Speaker 1 & 2: Discussion of feeding purchase/website data into database, stock levels, Xero integration. Zapier too many steps. Barcoding: printable barcodes, QR code on Monday – scan brings up watch details, serial numbers, updates, team notes. Transfer stock Sydney/Melbourne via scan and move. Speaker 2: build barcode system for scanning. Speaker 1: 12 years experience, built Monday setup; need integration (website + Xero). When website sale happens, no update on Monday – double-sell risk. Speaker 2: notifications when watch sold, mark sold in inventory. Speaker 1: manual phone call to Sydney when sold online. Speaker 2: integration possible, keep updated. Free to use, paid feature = receiving offers. Shared dynamic inventory link in bio. Demo: offers dashboard. Speaker 1: Xero for accounting. Invoicing in Watchcrow could send to Xero. Speaker 2: don't want to be accounting software. Speaker 1: product code in Xero pulls data – need that mimic in app. Speaker 2: API to Xero for revenues/profits. Mobile: web app is mobile responsive, barcode scanning can integrate. Speaker 1: main need = website + Xero integration. Unlimited custom entries. Speaker 2: two-way sync – if purchase on website, update Watchcrow and notify team. Transcribed by otter.ai.
+</content>
+</page>

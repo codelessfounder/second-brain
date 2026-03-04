@@ -1,0 +1,7 @@
+Here is the result of "view" for the Page:
+<page>
+<properties>{"title":"X/Twitter"}</properties>
+<content>
+Channel: X/Twitter. Content Pipeline database. Content Calendar view. Published Content view. Channel link twitter.com.
+</content>
+</page>

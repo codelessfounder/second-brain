@@ -1,0 +1,7 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/709140fb579a4710948f26fa2086c947}} as of 2024-04-29T05:53:33.155Z:
+<page url="{{https://www.notion.so/709140fb579a4710948f26fa2086c947}}">
+<properties>{"title":"Resources"}</properties>
+<content>
+Product Almanac: complete guide to product management (almanac.io). PM Bootcamp: Co.Lab Product Manager bootcamp.
+</content>
+</page>

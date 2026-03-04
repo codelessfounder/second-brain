@@ -1,0 +1,45 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/b192c34655774448b57be6a9012500ca}} as of 2026-01-09T02:42:38.883Z:
+<page url="{{https://www.notion.so/b192c34655774448b57be6a9012500ca}}" icon="💼">
+<ancestor-path></ancestor-path>
+<properties>
+{"title":"Business"}
+</properties>
+<content>
+<page url="{{https://www.notion.so/96432557989944ccbd5d0beff9a26791}}">Volintern</page>
+<page url="{{https://www.notion.so/ab8d1cd85f764c1d9ef0215cb6acfa00}}">Sweep</page>
+<page url="{{https://www.notion.so/877d1bb523a447d7b1bfc833e4101d77}}">Forex</page>
+<page url="{{https://www.notion.so/95355cf6ea77462fba7cbe0b576edbd2}}">**Academly**</page>
+<page url="{{https://www.notion.so/14093801541449cdb3252a8bd5e810ea}}">The Lonely Founder</page>
+<page url="{{https://www.notion.so/91a3d14fc5b8447999f7abcde9d8f06b}}">Split Test Dating </page>
+<page url="{{https://www.notion.so/3096ff899a0c45d795852a80aec4d91e}}">Misc </page>
+<page url="{{https://www.notion.so/3c62276641484c399b8790313ed9cc83}}">Bad Hand</page>
+<page url="{{https://www.notion.so/bc67071d0a2343a2a7e6ff44208f2efd}}">Packer Brothers</page>
+<page url="{{https://www.notion.so/aee4f911f5bc4941aa483aa63a0e4f70}}">Storage fac. inv Management app</page>
+<page url="{{https://www.notion.so/12a348f4363480dba65fd920c61cd5a1}}">Deodorant </page>
+<page url="{{https://www.notion.so/1ea348f436348082ab32d032b9f42e05}}">Pitchly - Gamified Pitch Night Software</page>
+<page url="{{https://www.notion.so/1ea348f4363480e1b353e6224ad1d70c}}">Car inventory (dad)</page>
+<page url="{{https://www.notion.so/149348f436348056a2c8c6dddda4b2ee}}">GIVECOIN</page>
+<page url="{{https://www.notion.so/1f1348f436348078a17aef19678b3f29}}">AI search engine (real estate, carsales)</page>
+<page url="{{https://www.notion.so/22a348f436348065b12bfa099b52003a}}">Füd</page>
+<page url="{{https://www.notion.so/257348f43634801a89fcd51af50feaf5}}">CV Chrome Extension </page>
+<page url="{{https://www.notion.so/26c348f436348040804cdd8c24904821}}">Dunny Bidets</page>
+<empty-block/>
+<empty-block/>
+<empty-block/>
+N8N FB marketplace market notifications  
+<empty-block/>
+My work day: 
+<empty-block/>
+50% innovation 
+50% keep the lights on 
+<empty-block/>
+Bidet toilets should be normalised
+<empty-block/>
+<empty-block/>
+AI Marketing animals that marketing businesses
+- make for existing companies 
+- create instagram and start making ads for other companies, then smaller companies will start reaching out for us to create ads for them 
+<empty-block/>
+<empty-block/>
+</content>
+</page>
