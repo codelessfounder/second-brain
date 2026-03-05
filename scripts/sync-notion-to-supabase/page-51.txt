@@ -1,0 +1,7 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/18b348f4363480cb927eef25f9446629}} as of 2025-01-30T01:48:14.006Z:
+<page url="{{https://www.notion.so/18b348f4363480cb927eef25f9446629}}">
+<properties>{"title":"Leads"}</properties>
+<content>
+Leads table: Matt Hawkins Watch Seller waiting to hear; Shmuel Ulman Zaeger waiting on feedback; Khov Luxuria Watches demo sent; Lewis The Watch Dealers Brisbane uses WJewel needs Xero meeting Monday; Patrick Bostan replied awaiting response; Sin Hock Lim Tung Ngyuyen Riley Lee Matthew Le Josh Mets Matthew Seeley Stephen Cai Jason Wang reached out on fb.
+</content>
+</page>

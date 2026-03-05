@@ -1,0 +1,139 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/3a517563e13745b9bf9540f845b58ad5}} as of 2025-02-08T03:09:20.964Z:
+<page url="{{https://www.notion.so/3a517563e13745b9bf9540f845b58ad5}}">
+<ancestor-path></ancestor-path>
+<properties>
+{"title":"Bubble"}
+</properties>
+<content>
+---
+<page url="{{https://www.notion.so/a21eb34098024cf0a0f97c5d41db3126}}">Step by Step Guide</page>
+<page url="{{https://www.notion.so/d9997632d2c44b61bc42e0f2be207c66}}">App Core: Element Styles</page>
+<page url="{{https://www.notion.so/0ec804cb56df4b218ffa9449c0808a57}}">App Core:Layout & Spacing </page>
+<page url="{{https://www.notion.so/050cc63e45e0459684b019baa3fcd89d}}">App Core: Interactions </page>
+<page url="{{https://www.notion.so/21fe13ee8ca94df8a2be8ec33f809f2a}}">Glossary </page>
+<page url="{{https://www.notion.so/5dd1ec01450b41b5aa5b3ac18325c5cf}}">Skills </page>
+<page url="{{https://www.notion.so/2330a5d02b614c2db9348c263e44d089}}">Principles:</page>
+<page url="{{https://www.notion.so/b216d0e7d18946acb43f3ab5496eba66}}">Courses </page>
+<page url="{{https://www.notion.so/104348f4363480179947f6a400fd713f}}">Stripe Integration </page>
+<page url="{{https://www.notion.so/108348f4363480b0a313d19370477172}}">AI integration</page>
+<page url="{{https://www.notion.so/10d348f43634805194a1f3cf9e0344c7}}">How to/tips</page>
+<page url="{{https://www.notion.so/111348f436348064aa68fabe6651b87a}}">Plugins</page>
+<page url="{{https://www.notion.so/123348f43634803a813af705eb94423a}}">Deployment (changes)</page>
+<page url="{{https://www.notion.so/126348f436348093adc6d9da75e0e483}}">Tech stack </page>
+<page url="{{https://www.notion.so/129348f4363480ba839bc20bf81d16e9}}">App speed optimisation </page>
+<page url="{{https://www.notion.so/12a348f43634802ca429dda9c1ae3c8f}}">Responsive Design</page>
+<page url="{{https://www.notion.so/14d348f4363480b393edeb8c5c79b4ae}}">Backend Workflows</page>
+<page url="{{https://www.notion.so/170348f43634800386cbe43eed0fe966}}">Templates</page>
+<empty-block/>
+<empty-block/>
+Building a website (not web app) on bubble: [https://bubble.io/blog/how-to-make-website/]({{https://bubble.io/blog/how-to-make-website/}})
+Landing page: 
+<empty-block/>
+Requisites for bubble certification: 
+- [ ] 1 year building in bubble 
+- [ ] built pages with complex design 
+- [ ] built and deployed an app with live users 
+- [ ] built an app with complex backend logic 
+- [ ] worked on an app with other devs as collaborators
+- [ ] worked on an app that has more than 100 users
+<empty-block/>
+<empty-block/>
+<empty-block/>
+Products: 
+<empty-block/>
+AI 
+Marketplace 
+SaaS 
+Games 
+Internal tools
+<empty-block/>
+Leads 
+- Upwork 
+- Signet 
+- Freelance 
+- Meta ads 
+- Tik tok ads 
+- Organic
+- Skool Games 
+- Friends
+- Bubble forum
+- Reddit 
+<empty-block/>
+<empty-block/>
+<empty-block/>
+<empty-block/>
+<empty-block/>
+Apps for Good
+Using technology to empower non-profit organisations to achieve holistic social justice 
+<empty-block/>
+Raffle 
+- we will build one of our viewers an app, for free. 🆓
+<empty-block/>
+<empty-block/>
+Tools:
+<empty-block/>
+<empty-block/>
+WC User Flow: 
+<empty-block/>
+Dealer goes to Landing Page 
+Dealer creates account 
+Dealer is taken to dealer account
+Dealer fills in inventory of watches to be sold 
+<empty-block/>
+Buyer clicks on pay now securely with Watchcrow 
+Buyer is taken to a confirmation page showing Watch details (info symmetry)
+Buyer chooses whether they want their watch delivered or pick up from dealer 
+- two flows needed for this 
+<empty-block/>
+Dealer dashboard 
+- Inventory 
+- Payments 
+<empty-block/>
+[https://youtu.be/O_oXIWiIsbE?si=6gql239jOh196vsP]({{https://youtu.be/O_oXIWiIsbE?si=6gql239jOh196vsP}}) - Bubble developer costs 
+<empty-block/>
+Freelancer tips: 
+- A "little win": deliver something early on that reassures the client about their choice to work with you 
+- Over-delivery: exceed expectations at the end to make the client excited to work with you in the future 
+<empty-block/>
+<empty-block/>
+Stripe & Bubble Tutorial: [Bubble x Stripe Part 1: App setup & pricing page (SaaS Payments Course)]({{https://www.youtube.com/watch?v=UGg72yvwiAM&list=PLoNVJrdvQQYlHQF8v0t32UCUCQ5NKr4b4&index=2}})
+<empty-block/>
+<empty-block/>
+DEBUG MODE 
+URL PARAMETERS
+<empty-block/>
+<empty-block/>
+Templates:
+- Saas 
+- Marketplace
+- Landing page 
+- Sign up/login 
+<empty-block/>
+<empty-block/>
+<empty-block/>
+Skill strategy 
+- Flexcamp 
+- Openbuild 
+- Collab project 
+- Framer 
+- Figma 
+<empty-block/>
+<empty-block/>
+<empty-block/>
+<empty-block/>
+Zeroqode:
+- has made some great plugins 
+- Xero plugin 
+<empty-block/>
+<empty-block/>
+Build chrome extension in bubble:
+[https://www.youtube.com/watch?v=WMltD68dOEo]({{https://www.youtube.com/watch?v=WMltD68dOEo}})
+<empty-block/>
+<empty-block/>
+<empty-block/>
+<empty-block/>
+<empty-block/>
+<empty-block/>
+<page url="{{https://www.notion.so/14b348f4363480ccb407fef9dab2d3bf}}">Exam</page>
+</content>
+</page>

@@ -1,0 +1,13 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/2b8348f43634802081ecd7643ed2bcb2}} as of 2025-12-01T03:28:55.807Z:
+<page url="{{https://www.notion.so/2b8348f43634802081ecd7643ed2bcb2}}">
+<ancestor-path>
+<parent-page url="{{https://www.notion.so/251348f436348030a2bed140aa8b6afa}}" title="Fundraise"/>
+</ancestor-path>
+<properties>
+{"title":"Przemek Meeting 26/11/25"}
+</properties>
+<content>
+<empty-block/>
+Summary: Przemek – former CMO HypeDrop. Why he took the call: looking for new projects with unique USP. HypeDrop success: high-stakes from day 1, luxury goods, crypto bull market, streamers drove growth, daily free boxes, level-based rewards. Reaction to Disco MVP: Likes insight on gambling acceptance, betting on everyday items, talking to people early, build speed. Concerns: Item-scan USP does not feel real – no psychological connection, extra friction; prefers pre-curated high-desirability items; UI not trustworthy (no social proof, chat, activity); too many steps (upload → AI → blackjack). His alternative: lottery + mystery box + gamified retention + high-value items + casino as side feature; level-based daily drops, narrative system. Thinks you: builder, he operator; open to partnering. Fears: internal theft, legal grey zones. Strategic alignment: you build product/AI/pitch; he brings scaling, GTM, streamer networks, acquisition, retention, legal. Advice: insight correct, scan-item execution won't scale; opportunity is casino/lottery/mystery-box hybrid, high dopamine, minimal friction, strong retention. Negative feedback list: item-scan no attachment, friction, no trust signals, delayed dopamine, too many steps.
+</content>
+</page>

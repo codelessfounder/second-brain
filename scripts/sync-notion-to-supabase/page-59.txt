@@ -1,0 +1,7 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/158348f436348014bdb1ff4b6b8d136f}} as of 2024-12-10T05:34:05.668Z:
+<page url="{{https://www.notion.so/158348f436348014bdb1ff4b6b8d136f}}">
+<properties>{"title":"Teams (seats)"}</properties>
+<content>
+Data types: Team (Name, Owner, Members, Seats), User (Team, Role), Invitation (Email, Team, Status). UI: Team Management, Join Invitation, Permissions. Workflows: Create Team, Add Member via email invite, Accept Invitation. Limit seats when adding. Optional: multiple teams per user, billing for seats.
+</content>
+</page>

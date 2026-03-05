@@ -1,0 +1,20 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/2d1348f4363480e8b1f9eb6f5b39e850}} as of 2026-02-23T03:12:05.493Z:
+<page url="{{https://www.notion.so/2d1348f4363480e8b1f9eb6f5b39e850}}">
+<ancestor-path></ancestor-path>
+<properties>
+{"title":"Disco MVP Product Strategy"}
+</properties>
+<content>
+27 December 2025
+---
+This document outlines Disco's MVP product strategy - feature builds, testable hypotheses, measurable outcomes.
+## Core MVP Hypotheses
+- People are willing to pay more to influence a game outcome in their favour. People are willing to bet on purchases they're making or things they own. Cards increase game satisfaction and perceived RTP value.
+## OKRs
+a. Game loop: latency <300ms, <1% error rate, 99.5% session completion. b. Betting on purchases: ≥35% upload→play, ≥25% see value→wager, ≥15% complete one loop. c. Cards: ≥40% use ≥1 card/session, ≥25% games with card, ≥15% longer sessions for card users. d. Unit economics: net RTP 94–97%, ≥30% paying users buy cards, positive gross margin by day 30.
+## Core MVP Loop
+Enter → Select game → GC or SC → Wager → Card (time-limited) → Game resolves → Outcome + balance.
+## Feature Scope
+Games: Coinflip, Mines, Blackjack, Slots, Wheel (GC+SC, cards, server-side, fast animations). Modes: Heads up, Chance, Battles vs Bot. Excluded: Live PvP, multi-table, parlays. Cards: inventory, one per action, ~5s window, probability modifiers, tier match. Shop: Buy GC/SC/cards. Item system: curated items, AI search, user uploads. Balances & Payments: GC/SC, min withdrawal, withdrawal flow. Auth & Compliance: accounts, email/password or wallet, KYC. Admin: enable games/cards, adjust odds, RTP, sessions. Retention: signup SC, daily free SC, Happy Hour SC. Affiliate: invite-only, referral link, cookie attribution, commission on net revenue, $100 min payout, bi-weekly, KYC, no self-referral. Build checklist P0–P2: foundations, auth, games, modes, cards, items, payments, shop, retention, affiliate, admin, risk controls, UX polish. Tech stack and project conventions in project.md. use upbank or revolut for payments (mike).
+</content>
+</page>

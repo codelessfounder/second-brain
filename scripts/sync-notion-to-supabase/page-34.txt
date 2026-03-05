@@ -1,0 +1,853 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/26a348f4363480c1b42bcf0445108221}} as of 2026-02-20T03:32:23.277Z:
+<page url="{{https://www.notion.so/26a348f4363480c1b42bcf0445108221}}">
+<ancestor-path></ancestor-path>
+<properties>
+{"title":"Dev (Product)"}
+</properties>
+<content>
+<empty-block/>
+<empty-block/>
+There are two upload photo buttons 
+- one for when a user has no recent sessions 
+- one for when a user has a recent session in their cart
+<empty-block/>
+this needs to be consolidated at some point
+<empty-block/>
+---
+<empty-block/>
+coinflip
+- winnings should show total payout (bet plus winnings), not just the won amount 
+<empty-block/>
+<empty-block/>
+---
+<empty-block/>
+Linking recent session to gameplay is causing errors on a new upload 
+<empty-block/>
+---
+<empty-block/>
+Some tiles (bomb) aren’t clickable during mines
+<empty-block/>
+---
+<empty-block/>
+We need separate components on homepage uploading a new photo and continuing a session
+<empty-block/>
+---
+<empty-block/>
+There are 3 main components: 
+- Upload a new photo
+- Sessions 
+- Gameplay 
+<empty-block/>
+The output from upload a new photo and sessions is the same: 
+- 1 new session 
+- 1 cart 
+- X cart items 
+<empty-block/>
+Both of these components will feed this through to the gameplay component so the user can play that session 
+<empty-block/>
+[Carttotal.t]({{http://Carttotal.tax}})sx is present in all of these components. 
+- we’ll need 3 
+- This element needs to be reusable 
+- One of these problems is that we’re using the same carttotal and there’s too many conditional states attached to it 
+<empty-block/>
+Unauthenticated users and Authenticated users with no previous session::
+- empty cart
+- Upload new photo yout
+<empty-block/>
+---
+<empty-block/>
+the disco loaders are not consistent throughout the app
+---
+<empty-block/>
+the carttotal.tsx in upload.tsx handles the image preview before you analyse
+<empty-block/>
+---
+<empty-block/>
+to do 22 september 2025:
+- [x] confetti appears when a user navigates from recent session to gameplay 
+- [x] upload.tsx visible when a user navigates from recent session
+- [x] coins game is not effecting the progressbar like mines is
+- [x] on page load, the sessions progress bar value should have the same animation as the one in gameplay
+- [x] progressbar in sessionhistorytable displays item amount, not the total_payout from sessions
+- [x] mines bomb and some tiles are not clickable/working
+<empty-block/>
+---
+<empty-block/>
+- [ ] fix demo page load 
+- [ ] add cart header to analysing image display 
+- [ ] when a session from sessionhistory table is played, that session should become the most recent session 
+- [ ] change any UI saying session to Cart
+- [ ] having nothing in your cart means you can’t upload anything to your 
+- [ ] recentbets should not be visible when a user is a playing a game
+<empty-block/>
+---
+<empty-block/>
+<empty-block/>
+<empty-block/>
+<empty-block/>
+---
+~~we need a new column called “outcomes” in supabase, where entries are generated on the backend ~~
+<empty-block/>
+---
+<empty-block/>
+we need to find a way to make the user feel like theyre winning discounts more - improve the contexualisation of discounts:
+- screen fades darker while the progressbar is going up or down every time a bet ends
+<empty-block/>
+---
+<empty-block/>
+~~BUG: when a user gets 21 with 3 cards, it shows as a lost~~
+<empty-block/>
+---
+<empty-block/>
+client seed 
+<empty-block/>
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/f517d51c-d559-4a6e-a307-29e438b5b332/ecbd3ead-f160-4223-b705-7ce083bfd40a/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UNCKOHBE%2F20260223%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260223T104749Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBMaCXVzLXdlc3QtMiJHMEUCIQCqkhmB4r%2BOzLuflheh3HydT7nZGHSq%2BYshNDJG944UbgIgT2NyZaRAL9a0bYTwTiN4m6oEXAKvZBPk%2BxY1uhr7Z%2FYqiAQI3P%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDGq17iOw%2F1IY%2BO3y%2FSrcAx6hbXLCvND%2B7W9v12PhTUUZ5VDNhpZ3uytqK2SUWhe8uYtHAOj%2FahSPaJkU%2ByK6lzJe0YqZc8lkKcuD%2BEFgfk8acoE91JSuK1Kl%2Bz4ryBikUQGKeEgZjLaUFCb8RL1CKYCkm86QNtvAFVk2xfzOi%2FQeQJ%2FlLIEqz37wHZrQhLwCbGJ3RRJYZsPA51GYDOJ7941dLQ5siwls7gncHxzFsXJBSvQqnBw%2FZT5Muii822xJOwjvanJ6p4U8Q%2FNcwEEnOxu4dD5qUchJJgMqOyIJKFLeT%2BbjIqVuk%2F6Lcv1CddNnZaAvKTb7hq7ARU29xQf0ZxABO%2F1GLFuyiTKgKsfOa6U%2B5Jf9VEE4EdBtGB3AxZnGxd1PdHvN5YGVG7SgjfXy2%2BiTTBx5ufNeArNxq%2FWx%2F6duedL0xuDr3llS0iTqsCSkgPoiH1t%2F54%2BNP0FizKQv834Z2ft5FIPhttACsan%2Bux7dsYPJ3aEIhkNWYvJ4xL88GwogJ7U83ret792SioQKNyZyPvLR7UGdnNup9RgsrMfZA%2BnHTypnmvOlseNs3qUgQh3HxMegdfhozsJtxIfEchzzF7bCb64sTVmtUztn1MCaQsUlewd1LjWl23%2FOPnpmKeooOQlGvNO6GBLUMLjW8MwGOqUBrODkB2PviUwO3W%2Bbhg2R1BDTkn6SePxBDIj2wuTvjxL%2FBDb4viIebvQr4m6Km%2FuCpHIaiOjt73hNRG4Yx7OtgOEb4cFdGtjqYlLPgIxN%2BpPwvPr%2BXzXaosoou3IDvjdVQ%2FqqguDLm4OrRAMWVj6DNi1Zrt0WuuDaLbNYrQz71nF7YJWFpN06fQKHwbyAlqAX1K3cW%2B9gqY7VE8sOW9U%2FQfdZ85eQ&X-Amz-Signature=3a97050adc3061dd085ce8d4abceab4a52149952eab9548e99f440ef33099948&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+<empty-block/>
+<empty-block/>
+---
+<empty-block/>
+login functionality with metamask (can be done on rainbet) 
+copy user authentication from rainbet 
+---
+percentage for progressbar instead of amount?
+<empty-block/>
+---
+head to head betting - social playing to see who pays for things 
+---
+<empty-block/>
+RNG server side outcomes have been implemented, but MANY API calls are made per bet, which increases latency. 
+- in future, create one edge function with multiple actions, instead of many edge functions 
+- implement provably fair approach with seed logic
+<empty-block/>
+---
+<empty-block/>
+when a user gets over 100%, the session should end. they should be: 
+- suggested by disco to play for new items 
+- able to share their win with friends 
+<empty-block/>
+---
+<empty-block/>
+geoblocking (popup only)
+<empty-block/>
+---
+<empty-block/>
+FIX ANALYSE PHOTO DUPE IT LOOKS TRASH
+<empty-block/>
+<empty-block/>
+---
+cartotal or progressbar should be pinned to the top beneath header for context
+<empty-block/>
+---
+<empty-block/>
+<empty-block/>
+---
+<empty-block/>
+~~Split sessionhistory table into completed and ongoing ~~
+- ~~sort by closest to 100% for ongoing ~~
+<empty-block/>
+---
+<empty-block/>
+Implement perplexity AI free for search API and image analysis 
+<empty-block/>
+Add ability to add previous items to play for 
+<empty-block/>
+Update logo to this 
+<empty-block/>
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/f517d51c-d559-4a6e-a307-29e438b5b332/6c0f3976-975b-4c2d-bb8d-6bf9aefb6d49/IMG_0072.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UNCKOHBE%2F20260223%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260223T104749Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBMaCXVzLXdlc3QtMiJHMEUCIQCqkhmB4r%2BOzLuflheh3HydT7nZGHSq%2BYshNDJG944UbgIgT2NyZaRAL9a0bYTwTiN4m6oEXAKvZBPk%2BxY1uhr7Z%2FYqiAQI3P%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDGq17iOw%2F1IY%2BO3y%2FSrcAx6hbXLCvND%2B7W9v12PhTUUZ5VDNhpZ3uytqK2SUWhe8uYtHAOj%2FahSPaJkU%2ByK6lzJe0YqZc8lkKcuD%2BEFgfk8acoE91JSuK1Kl%2Bz4ryBikUQGKeEgZjLaUFCb8RL1CKYCkm86QNtvAFVk2xfzOi%2FQeQJ%2FlLIEqz37wHZrQhLwCbGJ3RRJYZsPA51GYDOJ7941dLQ5siwls7gncHxzFsXJBSvQqnBw%2FZT5Muii822xJOwjvanJ6p4U8Q%2FNcwEEnOxu4dD5qUchJJgMqOyIJKFLeT%2BbjIqVuk%2F6Lcv1CddNnZaAvKTb7hq7ARU29xQf0ZxABO%2F1GLFuyiTKgKsfOa6U%2B5Jf9VEE4EdBtGB3AxZnGxd1PdHvN5YGVG7SgjfXy2%2BiTTBx5ufNeArNxq%2FWx%2F6duedL0xuDr3llS0iTqsCSkgPoiH1t%2F54%2BNP0FizKQv834Z2ft5FIPhttACsan%2Bux7dsYPJ3aEIhkNWYvJ4xL88GwogJ7U83ret792SioQKNyZyPvLR7UGdnNup9RgsrMfZA%2BnHTypnmvOlseNs3qUgQh3HxMegdfhozsJtxIfEchzzF7bCb64sTVmtUztn1MCaQsUlewd1LjWl23%2FOPnpmKeooOQlGvNO6GBLUMLjW8MwGOqUBrODkB2PviUwO3W%2Bbhg2R1BDTkn6SePxBDIj2wuTvjxL%2FBDb4viIebvQr4m6Km%2FuCpHIaiOjt73hNRG4Yx7OtgOEb4cFdGtjqYlLPgIxN%2BpPwvPr%2BXzXaosoou3IDvjdVQ%2FqqguDLm4OrRAMWVj6DNi1Zrt0WuuDaLbNYrQz71nF7YJWFpN06fQKHwbyAlqAX1K3cW%2B9gqY7VE8sOW9U%2FQfdZ85eQ&X-Amz-Signature=1e18d5a249ed79d18dae2589e149c195014a7217c8cd924c54708f9eb591f71a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+<empty-block/>
+<empty-block/>
+---
+<empty-block/>
+add chat bar for new users
+<empty-block/>
+---
+<empty-block/>
+~~Gameplay.tsx should be visible AS SOON as they click a tile on the mainpage, but greyed out until the user selects which game to play for. ~~
+<empty-block/>
+<empty-block/>
+---
+<empty-block/>
+<empty-block/>
+Eventually, the right sidebar will become a component and copies of upload.tsx and sessions.tsx will live in there 
+<empty-block/>
+---
+<empty-block/>
+Style betamount and the game component just like duel (side by side touching ting)
+<empty-block/>
+---
+<empty-block/>
+carttotal.tsx should persist across the games:
+- if the user plays sports betting or table games, their wins and losses will contributed or not 
+<empty-block/>
+---
+<empty-block/>
+Vite is for lightweight singlepage apps, Next.js is for full stack, high performance production ready applications
+<empty-block/>
+---
+<empty-block/>
+How should Disco reward the user (visually) for getting to 100% off their item?
+we need to change instant blackjack win logic so the anticipatory period is extended
+<empty-block/>
+---
+URL parameters need to be added because:
+- No deep linking / sharing. Users can’t bookmark a particular state or send a link that opens the same view.
+- Back/forward behaviour can be unexpected (browser history won’t reflect view changes).
+- Poor SEO for pages that should be indexed (if that matters).
+- Harder to restore state after a refresh (unless you persist to storage).
+- Harder to measure and attribute in analytics (no distinct URLs to track).
+<empty-block/>
+<empty-block/>
+---
+<empty-block/>
+we need forced scroll to top after session data is passed to gameplay from cartsidebar 
+<empty-block/>
+---
+<empty-block/>
+**Likely Performance Bottlenecks**
+- **Large, static UI bundle**
+All front-end routes share the main bundle. The codebase has many UI components under src/components/ui, but there’s no sign of route-based code splitting or dynamic imports. Any page load pulls in the entire component set, making the initial payload heavy and slow to parse. Network waterfalls in production would likely show this as large JS downloads and long main-thread busy time.
+- **Global state cascades**
+The central src/stores files export Zustand stores that get referenced across numerous components. Some stores appear to bundle a lot of concerns (e.g., wallet connection, session/game state, animation state). When a single value changes, many subscribers re-render. This is especially expensive in React trees with deep component nesting. You can confirm by profiling React DevTools: look for repeated renders after a single coin-flip event or wallet update.
+- **Rendering large lists repeatedly**
+Certain components (like Sessions.tsx) render large tables or grids with animation wrappers. Without virtualization or memoization, each update forces the entire list to re-render—especially problematic on mobile Safari. Watch for map + motion combinations; profiling should show a lot of time under “reconcileChildren”.
+- **Animation-heavy transitions**
+Framer Motion is used throughout. Animations on modals, cards, and background effects all run concurrently. When combined with large DOM repaint regions (e.g., gradients, glassmorphism), the GPU and CPU both get taxed, resulting in dropped frames on lower-end devices. Check the Frame Timeline in Chrome DevTools—the purple “Rendering” bars will be thick during state transitions.
+- **Expensive third-party SDKs**
+Wallet integrations pull in ethers.js and other crypto libraries. Those libraries are large and initialize async connections. They likely run on every load because wallet state lives in a global store. Lazy-loading the wallet SDK and deferring initialization until the user actually connects would improve startup.
+- **Server API chatter**
+The app fetches game session data, wallet balances, and leaderboard info on mount. Multiple components trigger their own fetches, often with overlapping data. You’ll see N+1 patterns if you analyze network logs: e.g., one module fetches /sessions, another fetches /session/:id, and yet another calls /wallet. Each request waits for Supabase or backend API responses, elongating render time.
+- **Image assets and background effects**
+Styled backgrounds under public/ and src/assets/ are high-resolution PNGs and gradients. They are used without responsive variants or lazy loading, forcing large downloads even on small screens. Check Largest Contentful Paint metrics; images probably dominate.
+## **Follow-Up Checks**
+- Run Lighthouse (mobile + desktop) to quantify first contentful paint, interaction readiness, and main-thread blocking time.
+- Profile with React DevTools to confirm re-render hotspots.
+- Capture a performance recording in Chrome and filter to “Scripting” and “Rendering” to see where frame budget is spent.
+- Inspect bundle size via next build / npm run build with ANALYZE=true to pinpoint largest chunks.
+<empty-block/>
+<empty-block/>
+---
+<empty-block/>
+Casino sounds:
+<empty-block/>
+- [Freesound - Search]({{https://freesound.org/search/?q=coin&f=&s=Automatic+by+relevance&si_tags=0&si_name=0&si_description=0&si_packname=0&si_sound_id=0&si_username=0&d0=0&d1=*&ig=0&r=0&g=1&dp=0&cm=0&mm=0}})
+- [Free Casino Sound Effects Download - Pixabay]({{https://pixabay.com/sound-effects/search/casino/}})
+- [Download Free Casino Sound Effects \| Mixkit]({{https://mixkit.co/free-sound-effects/casino/}})
+<empty-block/>
+<empty-block/>
+---
+<empty-block/>
+Need to change the front page to tell users about the USP 
+<empty-block/>
+---
+<empty-block/>
+We need to create slots
+- a girl said it was easily the most played game 
+<empty-block/>
+---
+<empty-block/>
+\$5000 per week gets you to be a VIP
+<empty-block/>
+<empty-block/>
+---
+<empty-block/>
+cart preview and cart price edit are priority 
+<empty-block/>
+---
+<empty-block/>
+OpenSpec Questions:
+<empty-block/>
+1. Create your first change proposal:<br>"I want to add \[YOUR FEATURE HERE\]. Please create an<br>OpenSpec change proposal for this feature"
+2. Learn the OpenSpec workflow:<br>"Please explain the OpenSpec workflow from openspec/AGENTS.md<br>and how I should work with you on this project"
+<empty-block/>
+<empty-block/>
+---
+<empty-block/>
+we need a slots game
+<empty-block/>
+---
+<empty-block/>
+building a vite typsecript supabase casino: considerations - 
+<empty-block/>
+Short answer: technically — **yes**. Vite + TypeScript for the frontend and Supabase for much of the backend **can** get you a working online-casino prototype quickly. But there are heavy legal, payments, fairness and security requirements you **must** handle before you ever take real money or market to players. Below I’ll explain the technical fit, the hard non-technical blocking points, and a practical architecture + checklist you can follow.
+# Technical fit (what works well)
+- **Vite + TypeScript** is an excellent modern frontend stack: fast dev server, HMR, first-class TypeScript support — great for building UI and game clients. [vitejs+1]({{https://vite.dev/?utm_source=chatgpt.com}})
+- **Supabase** gives you Postgres, Auth, Storage, Realtime and Edge Functions (TypeScript serverless at the edge) — useful building blocks for user auth, game state, presence, and lightweight server logic. Realtime is suitable for low-latency game events / presence. Edge Functions and DB functions let you run server-side logic close to users. [Supabase+2Supabase+2]({{https://supabase.com/docs/guides/getting-started/features?utm_source=chatgpt.com}})
+# Critical non-technical blockers (dealbreakers unless resolved)
+- **Licensing & regulation.** Online gambling is heavily regulated (examples: UK Gambling Commission LCCP). If you accept bets from people in regulated jurisdictions you generally need an operator licence and must follow strict rules (age checks, affordability, advertising limits, reporting, etc.). Running without a licence is illegal in many countries. **Get legal advice early.** [Gambling Commission+1]({{https://www.gamblingcommission.gov.uk/licensees-and-businesses/lccp/online?utm_source=chatgpt.com}})
+- **Payments.** Major payment providers (Stripe etc.) explicitly prohibit processing gambling/lotteries for many use cases. You’ll need specialist PSPs that support gambling and comply with AML/KYC rules — these providers do extra underwriting and paperwork. Don’t assume consumer payment rails will accept you. [Stripe+1]({{https://stripe.com/en-th/legal/restricted-businesses?utm_source=chatgpt.com}})
+- **Fairness & RNG auditability.** Regulated operators must prove games are fair. Many casinos implement server-side cryptographically secure RNG and/or “provably fair” schemes (especially crypto casinos). This needs careful design and third-party auditing. [cloudbet.com+1]({{https://www.cloudbet.com/en/academy/crypto-betting-basics/provably-fair-gaming?utm_source=chatgpt.com}})
+# Recommended architecture (practical)
+1. **Frontend (Vite + TS)**
+	- Build UI/game client with Vite + React/Preact + TypeScript. Use game loops / rendering separate from networking code. [vitejs]({{https://vite.dev/?utm_source=chatgpt.com}})
+2. **Auth & users (Supabase Auth)**
+	- Use Supabase Auth for signups; enforce email/2FA. But do **not** rely on client for sensitive decisions.
+3. **Server authoritative game logic**
+	- **Run all RNG and win/loss determination server-side** (Edge Functions or dedicated backend). Keep client as display only. Supabase Edge Functions are convenient for TS server code but for high throughput consider dedicated Node/Go game servers. (Edge Functions are great but consider concurrency, cold starts, and audit logging needs.) [Supabase+1]({{https://supabase.com/docs/guides/getting-started/features?utm_source=chatgpt.com}})
+4. **Database & auditing (Postgres)**
+	- Use Postgres for transactional records, ledgers and immutable audit trails (transactional logs, balances). Use database functions and strict RBAC / RLS to prevent tampering. [Supabase]({{https://supabase.com/docs/guides/database/functions?utm_source=chatgpt.com}})
+5. **Realtime & presence**
+	- Use Supabase Realtime for presence, lobby updates, and low-latency events — but **don’t** rely on it for authoritative RNG outcomes (those must be posted from server to DB). [Supabase]({{https://supabase.com/docs/guides/realtime?utm_source=chatgpt.com}})
+6. **Payments & KYC**
+	- Integrate a gambling-friendly PSP and a KYC/AML provider. Store KYC results and transaction records in your DB. Remember PSPs usually require business underwriting and compliance docs. [Stripe+1]({{https://stripe.com/en-th/legal/restricted-businesses?utm_source=chatgpt.com}})
+7. **Fairness & audits**
+	- Implement cryptographically secure RNG (e.g., server CSPRNG + HMAC commitments or provably fair scheme) and retain full logs so independent auditors can verify. Consider third-party RNG/certification. [cloudbet.com+1]({{https://www.cloudbet.com/en/academy/crypto-betting-basics/provably-fair-gaming?utm_source=chatgpt.com}})
+# Pros and cons of using Supabase
+- **Pros:** fast to build, Postgres features, Realtime and Edge Functions make prototyping much faster. Good DX for TS teams. [Supabase+1]({{https://supabase.com/docs/guides/getting-started/features?utm_source=chatgpt.com}})
+- **Cons / cautions:** Supabase is a general backend — you’ll likely need additional infrastructure for:
+	- High-throughput deterministic game servers (if your games are real-time and competitive).
+	- Compliance reporting, heavy audit retention, and secure key management (HSM) for RNG secrets.
+	- Advanced rate-limiting and anti-fraud tooling which you may need to integrate separately.
+# Practical checklist before you launch with real money
+- ✅ Talk to a gambling-experienced lawyer about licences for your target countries. [Gambling Commission]({{https://www.gamblingcommission.gov.uk/licensees-and-businesses/lccp/online?utm_source=chatgpt.com}})
+- ✅ Confirm acceptable payment providers and their onboarding requirements (Stripe is likely **not** an option). [Stripe]({{https://stripe.com/en-th/legal/restricted-businesses?utm_source=chatgpt.com}})
+- ✅ Design server-side RNG, provably-fair options, and plan for third-party audits. [cloudbet.com+1]({{https://www.cloudbet.com/en/academy/crypto-betting-basics/provably-fair-gaming?utm_source=chatgpt.com}})
+- ✅ Put in place KYC/AML, age verification, and responsible-gambling features. [Gambling Commission]({{https://www.gamblingcommission.gov.uk/licensees-and-businesses/lccp/online?utm_source=chatgpt.com}})
+- ✅ Use secure logging, immutable transaction ledgers, and maintain backups/retention for audits. [Supabase]({{https://supabase.com/docs/guides/database/functions?utm_source=chatgpt.com}})
+- ✅ Stress test real-time performance — Realtime is fine for many use cases, but load may require dedicated game servers. [Supabase]({{https://supabase.com/docs/guides/realtime?utm_source=chatgpt.com}})
+# Final recommendation
+Start with **Vite + TypeScript** for your client and **Supabase** for an MVP and proof-of-concept (auth, DB, realtime, Edge Functions). Use them to build the UX and the non-money game flow. But **don’t** accept real money or market publicly until you’ve locked down licensing, payments, server-authoritative RNG, KYC/AML and third-party audits. For a regulated, production money platform expect to integrate specialized providers and possibly move some services off Supabase into dedicated, certified systems.
+If you want, I can:
+- sketch a starter repo architecture (file layout + which parts live on Supabase vs dedicated servers), or
+- draft a one-page compliance checklist tailored to one jurisdiction (pick a country), or
+- show a minimal provably-fair design (server-client HMAC approach) you could prototype.
+Which of those would help you next?
+### You said:
+yes but aside from legal regulations etc, is it heavy duty enough technically to scale and handle many users
+### ChatGPT said:
+Thought for 10s
+Short answer: yes — **technically** Vite + TypeScript for the client and Supabase for much of the backend *can* scale to support a large user base, but only if you design around a few concrete platform limits and add a few classic scale components (connection pooling, dedicated real-time/game servers, caches/queues, read replicas). Below I’ll call out the main bottlenecks, what to do about each, and a compact scalable-architecture pattern you can implement.
+# Quick verdict
+- Great for rapid iteration and an MVP: static client built with Vite (fast builds + static hosting) + Supabase (Postgres, Auth, Realtime, Edge Functions). [vitejs+1]({{https://vite.dev/guide/build?utm_source=chatgpt.com}})
+- Not “one-box handles everything” at very large scale. You’ll need extra infra once you move beyond prototype traffic (connection pooling, dedicated realtime/gaming services, caches, message brokers). [Supabase+1]({{https://supabase.com/blog/supavisor-1-million?utm_source=chatgpt.com}})
+# Primary technical pain points & mitigations
+1. **Postgres connection limits** — Postgres on Supabase (and on most managed DBs) has finite connections; naive many-connection patterns will hit limits. Use PgBouncer / Supavisor (connection pooling) and design your app to reuse pooled connections. For heavy scale you’ll need read-replicas and possibly partitioning/sharding. [Supabase+2Supabase+2]({{https://supabase.com/docs/guides/database/connecting-to-postgres?utm_source=chatgpt.com}})
+2. **Realtime / WebSocket quotas** — Supabase Realtime is capable but has quotas (concurrent connections, message rates). For massive concurrent real-time players you may hit quotas; for game lobbies or presence Supabase is fine, but for very high message rates consider a dedicated realtime service (e.g., Ably, Pusher, or your own socket cluster). [Supabase+1]({{https://supabase.com/docs/guides/realtime/quotas?utm_source=chatgpt.com}})
+3. **Edge Functions / serverless limits** — Edge Functions are convenient for server-side logic, but watch for cold starts, per-instance limits and execution-time patterns. Keep heavy, latency-sensitive game logic on dedicated servers rather than many cold serverless invocations. (Recent Supabase improvements reduce cold starts, but you should still benchmark your workload.) [GitHub+2Supabase+2]({{https://github.com/orgs/supabase/discussions/29301?utm_source=chatgpt.com}})
+4. **Throughput & determinism for game logic** — Any money/competitive game must be server-authoritative and deterministic. For very high throughput (thousands of game outcomes/second) run dedicated horizontally-scalable game servers or a pool of workers instead of relying purely on Edge Functions/DB triggers.
+5. **State, caching and rate-limits** — Use Redis (or another in-memory store) for ephemeral state, leaderboards, rate limiting and locking. Use message queues (Kafka/Rabbit/SQS) to buffer spikes and to decouple writes to the ledger from user-facing flows.
+# Practical scalable architecture (recommended)
+- Static assets & client: build with Vite → deploy to CDN (Cloudflare/S3+CloudFront/Netlify/Vercel). (fast, cheap, scales automatically). [vitejs]({{https://vite.dev/guide/build?utm_source=chatgpt.com}})
+- Auth & user DB: Supabase Auth + Postgres for canonical data, but protect Postgres with PgBouncer/Supavisor and use read replicas for analytics/reads. [Supabase+1]({{https://supabase.com/docs/guides/database/connecting-to-postgres?utm_source=chatgpt.com}})
+- Realtime/presence: start with Supabase Realtime for lobbies/presence. If you anticipate \>10k concurrent real-time players or heavy messaging, evaluate a dedicated realtime provider or a horizontally-scaled socket cluster. [Ably Realtime+1]({{https://ably.com/compare/pusher-vs-supabase?utm_source=chatgpt.com}})
+- Game authority & RNG: run server-authoritative logic on a pool of dedicated servers (Kubernetes or autoscaling VM group) — keep RNG secrets out of Edge/clients. Use Edge Functions for less latency-sensitive endpoints only. [Supabase]({{https://supabase.com/docs/guides/functions/architecture?utm_source=chatgpt.com}})
+- Cache & locking: Redis for ephemeral state, locks, counters, leaderboards.
+- Queue & workers: message queue + worker pool to process settlement, payouts, audit logging asynchronously and reliably.
+- Monitoring & autoscaling: set up Prometheus/Grafana / Datadog for latency, DB connections, websocket counts, function cold starts, queue lengths.
+# Concrete scale tips & numbers (practical)
+- Don’t open a DB connection per request/thread — use PgBouncer pooled connections; Supabase tooling already uses pooling (Supavisor/PgBouncer). Upgrade compute tier if pool limits become a ceiling. [Supabase+1]({{https://supabase.com/blog/supavisor-1-million?utm_source=chatgpt.com}})
+- Measure your Realtime usage early — watch concurrent sockets and messages/sec. Supabase documents quotas and will surface quota errors when exceeded. Plan fallbacks. [Supabase]({{https://supabase.com/docs/guides/realtime/quotas?utm_source=chatgpt.com}})
+- Push static assets & game logic assets to CDN and use client-side prediction only for UX; always confirm authoritative result from the server.
+- Benchmark: simulate realistic client behavior (connects/sec, messages/sec, game outcome rate) and scale each component (DB, realtime, game servers) until you find the bottleneck — don’t guess.
+# When to move off “Supabase-only”
+- If you need \>10k concurrent real-time players, sustained thousands of messages/sec, or sub-50ms authoritative game outcome latency, plan to run specialized realtime/game servers + dedicated DB cluster and caching layer. Supabase remains useful for auth, user data and audit logs, but critical hot paths should be on infra built for low latency and extreme concurrency. [Ably Realtime+1]({{https://ably.com/compare/pusher-vs-supabase?utm_source=chatgpt.com}})
+# Short checklist to get from MVP → large scale
+1. Add PgBouncer / Supavisor and set sensible pool sizes. [Supabase+1]({{https://supabase.com/docs/guides/database/connecting-to-postgres?utm_source=chatgpt.com}})
+2. Add Redis for ephemeral state and rate limiting.
+3. Separate server-authoritative game engines (K8s or managed VM autoscaling).
+4. If heavy realtime: test Supabase Realtime quotas and evaluate a dedicated realtime provider. [Supabase+1]({{https://supabase.com/docs/guides/realtime/quotas?utm_source=chatgpt.com}})
+5. Put robust monitoring and automated scaling on every layer.
+6. Load test with realistic scenarios (connects, plays, bursts).
+---
+If you want, I can:
+- sketch a concrete infra diagram (Supabase + Redis + game server pool + queue + CDN) with component responsibilities, or
+- produce a short load-test plan + example k6 scenarios to simulate 10k concurrent players
+<empty-block/>
+---
+<empty-block/>
+android users need to be able to natively upload photos
+<empty-block/>
+---
+<empty-block/>
+Type of odds: 
+<empty-block/>
+Heads Up 
+Chance 
+Parlay
+<empty-block/>
+---
+<empty-block/>
+sweepstakes
+<empty-block/>
+---
+<empty-block/>
+leaderboard - see Duel
+<empty-block/>
+---
+<empty-block/>
+game mode change: resets cart total. item data should persist. 
+<empty-block/>
+---
+<empty-block/>
+Micro lottery: 
+- your groceries paid for for 1 year 
+- Toothpaste for a lifetime 
+- 10 years of toilet paper 
+<empty-block/>
+---
+<empty-block/>
+Social/head to head is a priority 
+<empty-block/>
+---
+<empty-block/>
+add a “discount” game mode to head to head and chance”
+<empty-block/>
+---
+<empty-block/>
+- [ ] Coins toggle display 
+	![](https://prod-files-secure.s3.us-west-2.amazonaws.com/f517d51c-d559-4a6e-a307-29e438b5b332/52fae496-d09a-4e3c-9e8c-3a97d4281c52/Screenshot_2025-12-10_at_1.16.42_pm.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UNCKOHBE%2F20260223%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260223T104749Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBMaCXVzLXdlc3QtMiJHMEUCIQCqkhmB4r%2BOzLuflheh3HydT7nZGHSq%2BYshNDJG944UbgIgT2NyZaRAL9a0bYTwTiN4m6oEXAKvZBPk%2BxY1uhr7Z%2FYqiAQI3P%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDGq17iOw%2F1IY%2BO3y%2FSrcAx6hbXLCvND%2B7W9v12PhTUUZ5VDNhpZ3uytqK2SUWhe8uYtHAOj%2FahSPaJkU%2ByK6lzJe0YqZc8lkKcuD%2BEFgfk8acoE91JSuK1Kl%2Bz4ryBikUQGKeEgZjLaUFCb8RL1CKYCkm86QNtvAFVk2xfzOi%2FQeQJ%2FlLIEqz37wHZrQhLwCbGJ3RRJYZsPA51GYDOJ7941dLQ5siwls7gncHxzFsXJBSvQqnBw%2FZT5Muii822xJOwjvanJ6p4U8Q%2FNcwEEnOxu4dD5qUchJJgMqOyIJKFLeT%2BbjIqVuk%2F6Lcv1CddNnZaAvKTb7hq7ARU29xQf0ZxABO%2F1GLFuyiTKgKsfOa6U%2B5Jf9VEE4EdBtGB3AxZnGxd1PdHvN5YGVG7SgjfXy2%2BiTTBx5ufNeArNxq%2FWx%2F6duedL0xuDr3llS0iTqsCSkgPoiH1t%2F54%2BNP0FizKQv834Z2ft5FIPhttACsan%2Bux7dsYPJ3aEIhkNWYvJ4xL88GwogJ7U83ret792SioQKNyZyPvLR7UGdnNup9RgsrMfZA%2BnHTypnmvOlseNs3qUgQh3HxMegdfhozsJtxIfEchzzF7bCb64sTVmtUztn1MCaQsUlewd1LjWl23%2FOPnpmKeooOQlGvNO6GBLUMLjW8MwGOqUBrODkB2PviUwO3W%2Bbhg2R1BDTkn6SePxBDIj2wuTvjxL%2FBDb4viIebvQr4m6Km%2FuCpHIaiOjt73hNRG4Yx7OtgOEb4cFdGtjqYlLPgIxN%2BpPwvPr%2BXzXaosoou3IDvjdVQ%2FqqguDLm4OrRAMWVj6DNi1Zrt0WuuDaLbNYrQz71nF7YJWFpN06fQKHwbyAlqAX1K3cW%2B9gqY7VE8sOW9U%2FQfdZ85eQ&X-Amz-Signature=2195d8d1928aaf705a58fff6ed8a027d6c3c22777ef750a856f2b00e9e15bef4&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+- [ ] coins balance
+	![](https://prod-files-secure.s3.us-west-2.amazonaws.com/f517d51c-d559-4a6e-a307-29e438b5b332/93da092b-d074-424f-9d6f-e1c5b8a93ffe/Screenshot_2025-12-10_at_1.16.52_pm.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UNCKOHBE%2F20260223%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260223T104749Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBMaCXVzLXdlc3QtMiJHMEUCIQCqkhmB4r%2BOzLuflheh3HydT7nZGHSq%2BYshNDJG944UbgIgT2NyZaRAL9a0bYTwTiN4m6oEXAKvZBPk%2BxY1uhr7Z%2FYqiAQI3P%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDGq17iOw%2F1IY%2BO3y%2FSrcAx6hbXLCvND%2B7W9v12PhTUUZ5VDNhpZ3uytqK2SUWhe8uYtHAOj%2FahSPaJkU%2ByK6lzJe0YqZc8lkKcuD%2BEFgfk8acoE91JSuK1Kl%2Bz4ryBikUQGKeEgZjLaUFCb8RL1CKYCkm86QNtvAFVk2xfzOi%2FQeQJ%2FlLIEqz37wHZrQhLwCbGJ3RRJYZsPA51GYDOJ7941dLQ5siwls7gncHxzFsXJBSvQqnBw%2FZT5Muii822xJOwjvanJ6p4U8Q%2FNcwEEnOxu4dD5qUchJJgMqOyIJKFLeT%2BbjIqVuk%2F6Lcv1CddNnZaAvKTb7hq7ARU29xQf0ZxABO%2F1GLFuyiTKgKsfOa6U%2B5Jf9VEE4EdBtGB3AxZnGxd1PdHvN5YGVG7SgjfXy2%2BiTTBx5ufNeArNxq%2FWx%2F6duedL0xuDr3llS0iTqsCSkgPoiH1t%2F54%2BNP0FizKQv834Z2ft5FIPhttACsan%2Bux7dsYPJ3aEIhkNWYvJ4xL88GwogJ7U83ret792SioQKNyZyPvLR7UGdnNup9RgsrMfZA%2BnHTypnmvOlseNs3qUgQh3HxMegdfhozsJtxIfEchzzF7bCb64sTVmtUztn1MCaQsUlewd1LjWl23%2FOPnpmKeooOQlGvNO6GBLUMLjW8MwGOqUBrODkB2PviUwO3W%2Bbhg2R1BDTkn6SePxBDIj2wuTvjxL%2FBDb4viIebvQr4m6Km%2FuCpHIaiOjt73hNRG4Yx7OtgOEb4cFdGtjqYlLPgIxN%2BpPwvPr%2BXzXaosoou3IDvjdVQ%2FqqguDLm4OrRAMWVj6DNi1Zrt0WuuDaLbNYrQz71nF7YJWFpN06fQKHwbyAlqAX1K3cW%2B9gqY7VE8sOW9U%2FQfdZ85eQ&X-Amz-Signature=8bbc666b45e33dd77b49871fcc0fa991d37196f7bfb2e0bd8880f1e52e68649f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+<empty-block/>
+<empty-block/>
+<empty-block/>
+---
+<empty-block/>
+“”*dont see the product you’re looking for? upload a photo of the item or take a photo instantly and Disco will calculate the max value you can get for it”*
+<empty-block/>
+---
+<empty-block/>
+Implement Phaser for table games 
+<empty-block/>
+---
+<empty-block/>
+prod strat 
+<empty-block/>
+- 2 new games (wheel and slots)
+- Battles 
+- cards 
+- search for items 
+- update carttoal to itemcontext and add to landingpage
+<empty-block/>
+---
+<empty-block/>
+[www.coolbet.com]({{https://www.coolbet.com/en/welcome}})
+has poker, and a language switching feature
+<empty-block/>
+<empty-block/>
+---
+<empty-block/>
+Item Niche:
+<empty-block/>
+- Real estate 
+- Cars 
+- Watches 
+- Shoes 
+<empty-block/>
+---
+<empty-block/>
+item upload
+- users can upload items “for sale” for people to gamble on and win, and then they share in the profits with Disco
+	- e.g. a user lists their air jordans for 300
+	- users bet 5000 on that item 
+	- the seller is given 450 on that item by Disco instead of 300 
+- the benefit of this is that users will be able to earn substantially more than if they listed on a regular marketplace 
+<empty-block/>
+<empty-block/>
+---
+<empty-block/>
+Disco paid boosts:
+<empty-block/>
+coinflip: respin 
+Mines: re-pick tile 
+Blackjack: TBA
+<empty-block/>
+<empty-block/>
+---
+<empty-block/>
+Duel vs Disco Provably fair verification logic:
+## **Differences**
+**1. Verification approach**
+**Duel's approach (outcome regeneration):**
+- Regenerates the actual game outcome using the same algorithm
+- For Blackjack: shows the next 50 cards that would be dealt
+- For Mines: shows the exact bomb positions
+- Proves fairness and shows what the outcome was
+**Our current approach (HMAC verification):**
+- Verifies the HMAC matches the stored value
+- Proves the randomness was fair
+- Does not regenerate or display the actual game outcome
+**2. Why Duel has a game dropdown**
+Each game uses different verification logic:
+- Mines: needs minesCount and gridSize to regenerate bomb positions using Fisher-Yates shuffle
+- Blackjack: uses a cursor-based approach to generate cards sequentially
+- Coin Flip: simpler (just one random number)
+The dropdown selects the correct verification algorithm.
+**3. Our implementation differences**
+**Blackjack:**
+- Duel: Uses HMAC-SHA256 with cursor-based card generation (clientSeed:nonce:cursor)
+- Ours: Uses HMAC-SHA512 with nonce increments (2 nonces per card: suit + value)
+- Different algorithms = different verification code
+**Mines:**
+- Duel: Uses Fisher-Yates shuffle with HMAC-SHA256, needs minesCount and gridSize
+- Ours: Uses HMAC-SHA512 with a single random number for bomb position (Heads Up) or threshold (Chance)
+- Different algorithms = different verification code
+## **Should we implement game-specific verification?**
+Pros:
+- More transparent: users see the actual outcome
+- Better UX: verifies fairness and shows what happened
+- Aligns with industry practice
+Cons:
+- Requires game-specific verification code for each game
+- Must match our server-side algorithms exactly
+- More complex UI (game dropdown, game-specific fields)
+## **Recommendation**
+Implement game-specific verification to:
+1. Match Duel's transparency level
+2. Provide better user experience
+3. Enable full outcome verification
+This would require:
+1. Adding a game dropdown (Coin Flip, Mines, Blackjack)
+2. Creating game-specific verification functions matching our server-side logic
+3. Adding game-specific fields (e.g., minesCount for Mines)
+4. Regenerating outcomes to show what actually happened
+Should I implement game-specific verification matching our server-side algorithms?
+<empty-block/>
+---
+<empty-block/>
+## SSG implementation plan
+```markdown
+# SSG Implementation Plan - Static Site Generation for Disco PWA
+
+**Status:** Deferred - Ready to implement when needed  
+**Created:** February 2025  
+**Estimated Time:** 1-1.5 hours
+
+---
+
+## Overview
+
+Add Static Site Generation (SSG) for 3 static pages (`/`, `/terms`, `/privacy-policy`) while keeping Client-Side Rendering (CSR) for all other pages. This will improve initial load times and SEO for static content.
+
+---
+
+## Pages to Pre-Render
+
+### Phase 1: Static Pages (SSG)
+- ✅ `/` - Landing page
+  - Mostly static content
+  - Form handled client-side (hydration)
+  - Spline 3D scene (loads client-side)
+- ✅ `/terms` - Terms of Service
+  - Fully static
+- ✅ `/privacy-policy` - Privacy Policy
+  - Fully static
+
+### Phase 2: Keep CSR (No Changes)
+- `/home/*` - All authenticated/dynamic pages
+- `/home/:gameMode/result/:betId` - Dynamic result pages
+- All other routes
+
+---
+
+## Package Selection
+
+**Package:** `vite-react-ssg`
+
+**Why:**
+- Works seamlessly with React Router
+- Supports hybrid approach (SSG + CSR)
+- Minimal configuration required
+- Good TypeScript support
+- Active maintenance
+
+**Installation:**
+```bash
+npm install -D vite-react-ssg
+```
+
+**Alternative Considered:** `vite-plugin-ssg` (less React Router support)
+
+---
+
+## Implementation Steps
+
+### Step 1: Install Package
+```bash
+npm install -D vite-react-ssg
+```
+
+### Step 2: Update `vite.config.ts`
+
+Add the SSG plugin and configure routes:
+
+```typescript
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react-swc";
+import path from "path";
+import { ssg } from "vite-react-ssg";
+
+export default defineConfig({
+  plugins: [
+    react(),
+    ssg({
+      // Configure which routes to pre-render
+      routes: ['/', '/terms', '/privacy-policy'],
+      // Keep CSR for other routes
+    }),
+  ],
+  resolve: {
+    alias: {
+      "@": path.resolve(__dirname, "./src"),
+    },
+  },
+  // ... rest of existing config
+});
+```
+
+### Step 3: Create SSG Entry Point
+
+Create `src/main-ssg.tsx`:
+
+```typescript
+import { StrictMode } from 'react';
+import { hydrateRoot } from 'react-dom/client';
+import App from './App';
+
+// SSG entry point - hydrates pre-rendered HTML
+hydrateRoot(
+  document.getElementById('root')!,
+  <StrictMode>
+    <App />
+  </StrictMode>
+);
+```
+
+### Step 4: Update `index.html`
+
+Ensure it works for both SSG and CSR. May need to check if any changes are needed based on `vite-react-ssg` requirements.
+
+### Step 5: Update Build Script
+
+Modify `package.json` build script (if needed):
+
+```json
+{
+  "scripts": {
+    "build": "vite build && cp public/favicon.ico dist/ && node scripts/generate-sitemap.js",
+    "build:preview": "vite build && vite preview"
+  }
+}
+```
+
+### Step 6: Handle Special Cases
+
+#### Landing Page Form
+- **Issue:** Form submits to Supabase (client-side)
+- **Solution:** Form works after hydration (React handles this)
+- **Test:** Ensure form is interactive after JS loads
+
+#### Spline 3D Scene
+- **Issue:** Spline loads client-side
+- **Solution:** Component loads after hydration
+- **Test:** Ensure 3D scene appears correctly
+
+#### SEO Metadata
+- **Current:** `react-helmet-async` adds metadata via JS
+- **SSG:** Metadata should be in pre-rendered HTML
+- **Solution:** Ensure Helmet renders during SSG build
+- **Test:** Check HTML source has metadata
+
+#### React Router
+- **Issue:** SSG needs to work with React Router
+- **Solution:** `vite-react-ssg` handles this automatically
+- **Test:** Ensure routing works for both SSG and CSR pages
+
+---
+
+## File Structure Changes
+
+```
+src/
+├── main.tsx          (existing - CSR entry, dev mode)
+├── main-ssg.tsx      (new - SSG entry point)
+└── pages/
+    ├── LandingPage.tsx      (SSG)
+    ├── TermsOfServicePage.tsx (SSG)
+    └── PrivacyPolicyPage.tsx  (SSG)
+```
+
+---
+
+## Build Output
+
+After build, `dist/` will contain:
+
+```
+dist/
+├── index.html              (pre-rendered /)
+├── terms/
+│   └── index.html          (pre-rendered /terms)
+├── privacy-policy/
+│   └── index.html          (pre-rendered /privacy-policy)
+├── assets/                 (JS bundles - same as before)
+└── ...                     (other files)
+```
+
+---
+
+## Testing Strategy
+
+### Development Testing
+1. ✅ Test SSG pages in dev mode (should work as CSR)
+2. ✅ Test build process (`npm run build`)
+3. ✅ Verify HTML files are generated
+
+### Build Verification
+1. ✅ Check `dist/` has pre-rendered HTML files
+2. ✅ Open HTML files directly (should see content)
+3. ✅ Verify metadata is in HTML source
+4. ✅ Check JavaScript still works (hydration)
+
+### Production Testing
+1. ✅ Test `/terms` loads fast (should see content immediately)
+2. ✅ Test `/privacy-policy` loads fast
+3. ✅ Test `/` landing page loads fast
+4. ✅ Verify form works on landing page
+5. ✅ Test other routes still work (CSR)
+
+### SEO Testing
+1. ✅ View page source (should see content, not just `<div id="root">`)
+2. ✅ Test with Google Search Console
+3. ✅ Test social media previews (Twitter, Facebook)
+4. ✅ Run Lighthouse SEO audit
+
+---
+
+## Potential Issues & Solutions
+
+### Issue 1: Hydration Mismatch
+- **Problem:** Server HTML doesn't match client render
+- **Solution:** Ensure components are hydration-safe
+- **Mitigation:** Test thoroughly, use `suppressHydrationWarning` if needed
+
+### Issue 2: Build Time Increase
+- **Problem:** SSG adds 30-60s to build
+- **Solution:** Only pre-render 3 pages (minimal impact)
+- **Acceptable:** Trade-off for better performance
+
+### Issue 3: Dynamic Imports
+- **Problem:** Lazy-loaded components may not pre-render
+- **Solution:** `vite-react-ssg` handles this automatically
+- **Test:** Ensure lazy-loaded components work
+
+### Issue 4: Environment Variables
+- **Problem:** Some code may need `window` or browser APIs
+- **Solution:** Use conditional checks (`typeof window !== 'undefined'`)
+- **Test:** Ensure no SSR errors during build
+
+---
+
+## Rollback Plan
+
+If issues arise:
+
+1. Remove `vite-react-ssg` plugin from `vite.config.ts`
+2. Delete `src/main-ssg.tsx` if created
+3. Revert to pure CSR
+4. Keep SEO metadata (still works with CSR)
+5. No data loss (all content is in code)
+
+**Rollback Time:** < 5 minutes
+
+---
+
+## Success Metrics
+
+After implementation, you should see:
+
+- ✅ `/terms` loads in < 0.5s (vs 2-3s before)
+- ✅ `/privacy-policy` loads in < 0.5s
+- ✅ `/` loads in < 1s (vs 2-3s before)
+- ✅ Lighthouse SEO score: 95+ (vs 80-90 before)
+- ✅ HTML source shows content (not empty div)
+- ✅ All functionality still works
+
+---
+
+## Quick Start Commands
+
+```bash
+# 1. Install package
+npm install -D vite-react-ssg
+
+# 2. Update vite.config.ts (see Step 2 above)
+
+# 3. Create main-ssg.tsx (see Step 3 above)
+
+# 4. Build and test
+npm run build
+
+# 5. Preview build
+npm run preview
+
+# 6. Check dist/ folder for pre-rendered HTML
+ls -la dist/
+ls -la dist/terms/
+ls -la dist/privacy-policy/
+```
+
+---
+
+## Documentation References
+
+- **vite-react-ssg:** https://github.com/antfu/vite-react-ssg
+- **Vite SSG Guide:** https://vitejs.dev/guide/ssr.html
+- **React Hydration:** https://react.dev/reference/react-dom/client/hydrateRoot
+
+---
+
+## Notes
+
+- This is a **hybrid approach** - SSG for static pages, CSR for dynamic pages
+- **No breaking changes** - existing functionality remains the same
+- **Low risk** - easy to rollback if needed
+- **High ROI** - significant performance improvement for minimal effort
+
+---
+
+## Current State (Before SSG)
+
+- ✅ CSR with enhanced metadata
+- ✅ Dynamic metadata via `react-helmet-async`
+- ✅ JSON-LD schema markup
+- ✅ Sitemap generation
+- ✅ Works well for current use case
+- ✅ Google can index SPAs
+- ✅ Social sharing works with dynamic metadata
+
+---
+
+**Ready to implement when needed!** 🚀
+
+```
+<empty-block/>
+<empty-block/>
+<empty-block/>
+---
+<empty-block/>
+## shareable links
+<empty-block/>
+context paragraph 
+<empty-block/>
+<empty-block/>
+The app supports shareable links for game results and game modes. Result links use the format /home/:gameMode/result/:betId (e.g., /home/coinflip/result/abc123) and are generated after each game. The result page (ResultPage.tsx) includes share buttons for copy link, native share (mobile), Twitter, and Facebook, with dynamic share text that highlights wins (e.g., "Won \$50.00 playing Coin Flip! 🎉"). Game mode links use /home/:gameMode (e.g., /home/coinflip) to share direct access to specific game previews. Short URLs are supported via /r/:shortId, created through a Supabase Edge Function and stored in the short_urls table with click tracking. All shares are tracked via analytics (trackShare()), and each result page includes SEO metadata (Open Graph tags, Twitter Cards, JSON-LD schema) for rich social previews. This enables viral sharing of wins, direct links to specific games, improved SEO through unique URLs, and analytics on share performance. The feature is implemented across ResultPage.tsx, shortUrlService.ts, ShortUrlRedirect.tsx, and integrated with the URL routing system (useGameRoute hook) for seamless navigation and state management.
+<empty-block/>
+---
+<empty-block/>
+an item table in supabase that record every price of an item that is reference on every future scan <br>
+---
+<empty-block/>
+great, le
+<empty-block/>
+<empty-block/>
+<empty-block/>
+<empty-block/>
+<empty-block/>
+<empty-block/>
+<empty-block/>
+<empty-block/>
+<empty-block/>
+<empty-block/>
+<empty-block/>
+</content>
+</page>

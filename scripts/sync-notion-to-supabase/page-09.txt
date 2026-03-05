@@ -1,0 +1,22 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/26c348f436348040804cdd8c24904821}} as of 2025-10-27T06:01:11.225Z:
+<page url="{{https://www.notion.so/26c348f436348040804cdd8c24904821}}">
+<ancestor-path>
+<parent-page url="{{https://www.notion.so/b192c34655774448b57be6a9012500ca}}" title="Business"/>
+</ancestor-path>
+<properties>
+{"title":"Dunny Bidets"}
+</properties>
+<content>
+<empty-block/>
+Ad: [605K views · 1.7K reactions | fresh, so clean #toilet #9gag | 9GAG |...]({{https://www.facebook.com/share/r/19NKGm3nWs/?mibextid=wwXIfr}})
+Dropshipping bidet toilet seats to Australians 
+<empty-block/>
+- create a fake page that lets users buy, then say they're out of stock 
+<empty-block/>
+Similar companies: 
+[https://bidet.gg/]({{https://bidet.gg/}})
+Problem: Swipe's toilet seats don't fit Australian plumbing
+Problem - they're kind of illegal because plumbing is highly regulated
+Benefits: Cheaper, Environmentally friendly, DIY installation, No paper chemicals
+</content>
+</page>

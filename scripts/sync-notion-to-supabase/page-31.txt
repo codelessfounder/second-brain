@@ -1,0 +1,23 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/170348f43634800386cbe43eed0fe966}} as of 2025-01-04T00:08:23.790Z:
+<page url="{{https://www.notion.so/170348f43634800386cbe43eed0fe966}}">
+<ancestor-path>
+<parent-page url="{{https://www.notion.so/3a517563e13745b9bf9540f845b58ad5}}" title="Bubble "/>
+</ancestor-path>
+<properties>
+{"title":"Templates"}
+</properties>
+<content>
+<empty-block/>
+<empty-block/>
+1. Sign-up/login 
+2. Onboarding 
+3. messenger feature 
+4. Landing page 
+<empty-block/>
+<empty-block/>
+<empty-block/>
+<empty-block/>
+<empty-block/>
+<empty-block/>
+</content>
+</page>

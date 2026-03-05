@@ -1,0 +1,105 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/1ea348f4363480e0a7dfee6a3d599fee}} as of 2025-05-05T10:42:39.011Z:
+<page url="{{https://www.notion.so/1ea348f4363480e0a7dfee6a3d599fee}}">
+<ancestor-path>
+<parent-page url="{{https://www.notion.so/1ea348f436348082ab32d032b9f42e05}}" title="Pitchly - Gamified Pitch Night Software"/>
+<ancestor-2-page url="{{https://www.notion.so/b192c34655774448b57be6a9012500ca}}" title="Business"/>
+</ancestor-path>
+<properties>
+{"title":"Feature MoSCoW"}
+</properties>
+<content>
+<empty-block/>
+<table>
+<colgroup>
+<col width="230.00115966796875">
+<col width="230.00115966796875">
+<col width="230.00115966796875">
+</colgroup>
+<tr>
+<td>**Priority**</td>
+<td>**Feature**</td>
+<td>**Notes**</td>
+</tr>
+<tr>
+<td>Must Have</td>
+<td>Join event via unique link or QR code</td>
+<td>Key to frictionless audience access</td>
+</tr>
+<tr>
+<td>Must Have</td>
+<td>Virtual funds allocation mechanic</td>
+<td>Core gamified interaction</td>
+</tr>
+<tr>
+<td>Must Have</td>
+<td>Startup browsing view (name + pitch summary)</td>
+<td>Enables informed investment</td>
+</tr>
+<tr>
+<td>Must Have</td>
+<td>Feedback submission (simple text or rating)</td>
+<td>Core value-add for startups</td>
+</tr>
+<tr>
+<td>Must Have</td>
+<td>Contact detail + interest form (optional)</td>
+<td>For surfacing potential leads</td>
+</tr>
+<tr>
+<td>Must Have</td>
+<td>Admin event creation + startup entry</td>
+<td>Enables events to be built</td>
+</tr>
+<tr>
+<td>Must Have</td>
+<td>Export feedback + leads (CSV/email)</td>
+<td>Delivers value post-event</td>
+</tr>
+<tr>
+<td>Should Have</td>
+<td>Real-time leaderboard (crowd favourite)</td>
+<td>Increases excitement, optional live screen</td>
+</tr>
+<tr>
+<td>Should Have</td>
+<td>Email confirmation to audience with recap</td>
+<td>Reinforces engagement & brand recall</td>
+</tr>
+<tr>
+<td>Should Have</td>
+<td>Auto-reminder to submit feedback before exit</td>
+<td>UX nudge for value capture</td>
+</tr>
+<tr>
+<td>Could Have</td>
+<td>Startup view-only login to see their own results</td>
+<td>Would add polish but not essential</td>
+</tr>
+<tr>
+<td>Could Have</td>
+<td>Public results screen / big screen mode</td>
+<td>Nice for larger events</td>
+</tr>
+<tr>
+<td>Could Have</td>
+<td>Simple gamified UI animation for "spending" money</td>
+<td>Polishes user experience</td>
+</tr>
+<tr>
+<td>Won't Have (MVP)</td>
+<td>Real-money investment or equity tie-in</td>
+<td>Legal complexity too high early on</td>
+</tr>
+<tr>
+<td>Won't Have (MVP)</td>
+<td>AI feedback summaries</td>
+<td>Leave for later versioning</td>
+</tr>
+<tr>
+<td>Won't Have (MVP)</td>
+<td>Deep startup profile (deck upload, video, etc.)</td>
+<td>Stick to text and images first</td>
+</tr>
+</table>
+</content>
+</page>

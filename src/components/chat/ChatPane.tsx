@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from "react"
 import { Button } from "@/components/ui/button"
-import { Copy, Send } from "lucide-react"
+import { ChevronDown, ChevronRight, Copy, Send } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { MarkdownContent } from "@/components/canvas/MarkdownContent"
 
@@ -10,6 +10,10 @@ export type Message = {
   id: string
   role: "user" | "assistant"
   content: string
+  /** True when content is an error message (styled differently) */
+  isError?: boolean
+  /** Reasoning summary (expandable, default collapsed) for assistant messages */
+  reasoning?: string
   /** Source pills (Notion page URLs) for assistant messages */
   sources?: Source[]
 }
@@ -38,6 +42,7 @@ export function ChatPane({
   className,
 }: ChatPaneProps) {
   const [expandedSourceIds, setExpandedSourceIds] = useState<Set<string>>(new Set())
+  const [expandedReasoningIds, setExpandedReasoningIds] = useState<Set<string>>(new Set())
   const [showTopFade, setShowTopFade] = useState(false)
   const [showBottomFade, setShowBottomFade] = useState(false)
   const scrollRef = useRef<HTMLDivElement>(null)
@@ -58,6 +63,15 @@ export function ChatPane({
 
   const toggleSources = (messageId: string) => {
     setExpandedSourceIds((prev) => {
+      const next = new Set(prev)
+      if (next.has(messageId)) next.delete(messageId)
+      else next.add(messageId)
+      return next
+    })
+  }
+
+  const toggleReasoning = (messageId: string) => {
+    setExpandedReasoningIds((prev) => {
       const next = new Set(prev)
       if (next.has(messageId)) next.delete(messageId)
       else next.add(messageId)
@@ -119,7 +133,9 @@ export function ChatPane({
                       "text-base leading-relaxed",
                       msg.role === "user"
                         ? "max-w-[85%] rounded-lg bg-brain-cream px-4 py-2.5 text-brain-primary-dark"
-                        : "w-full max-w-full py-1.5 text-brain-primary-dark"
+                        : msg.isError
+                          ? "w-full max-w-full py-1.5 text-brain-muted"
+                          : "w-full max-w-full py-1.5 text-brain-primary-dark"
                     )}
                   >
                     {msg.role === "user"
@@ -128,10 +144,56 @@ export function ChatPane({
                           <pre className="whitespace-pre-wrap font-sans text-base leading-relaxed">
                             {displayContent}
                           </pre>
+                        ) : isLastAssistant && disabled && !msg.content && streamingContent === null ? (
+                          <span className="inline-flex items-center gap-1 text-brain-muted">
+                            <span>Thinking</span>
+                            <span className="thinking-dots inline-flex gap-0.5">
+                              <span>.</span>
+                              <span>.</span>
+                              <span>.</span>
+                            </span>
+                          </span>
                         ) : (
                           <MarkdownContent content={msg.content} />
                         )}
                   </div>
+                  {msg.role === "assistant" &&
+                    msg.reasoning &&
+                    msg.reasoning.trim().length > 0 &&
+                    !(isLastAssistant && streamingContent !== null) && (
+                      <div className="w-full max-w-[85%]">
+                        <button
+                          type="button"
+                          onClick={() => toggleReasoning(msg.id)}
+                          className="flex w-full items-center gap-1.5 rounded-lg border border-brain-muted/30 bg-brain-cream/50 px-3 py-2 text-left text-sm text-brain-muted transition-colors hover:bg-brain-cream hover:text-brain-primary-dark"
+                          aria-expanded={expandedReasoningIds.has(msg.id)}
+                          aria-controls={`reasoning-${msg.id}`}
+                          id={`reasoning-toggle-${msg.id}`}
+                        >
+                          {expandedReasoningIds.has(msg.id) ? (
+                            <ChevronDown className="h-4 w-4 shrink-0" aria-hidden />
+                          ) : (
+                            <ChevronRight className="h-4 w-4 shrink-0" aria-hidden />
+                          )}
+                          <span>
+                            {expandedReasoningIds.has(msg.id) ? "Hide" : "Show"} reasoning
+                          </span>
+                        </button>
+                        <div
+                          id={`reasoning-${msg.id}`}
+                          role="region"
+                          aria-labelledby={`reasoning-toggle-${msg.id}`}
+                          className={cn(
+                            "overflow-hidden transition-all duration-200",
+                            expandedReasoningIds.has(msg.id) ? "max-h-[2000px] opacity-100" : "max-h-0 opacity-0"
+                          )}
+                        >
+                          <div className="mt-2 rounded-lg border border-brain-muted/20 bg-brain-cream/30 px-3 py-2.5 text-sm leading-relaxed text-brain-muted">
+                            <MarkdownContent content={msg.reasoning} className="text-sm" />
+                          </div>
+                        </div>
+                      </div>
+                    )}
                   {msg.role === "assistant" &&
                     msg.sources &&
                     msg.sources.length > 0 &&
@@ -209,18 +271,6 @@ export function ChatPane({
                 </li>
               )
             })}
-            {disabled && messages.length > 0 && messages[messages.length - 1].role === "user" && (
-              <li className="flex flex-col gap-2 items-start">
-                <div className="flex max-w-[85%] items-center gap-1 rounded-lg bg-brain-cream px-4 py-2.5 text-base text-brain-muted">
-                  <span>Thinking</span>
-                  <span className="thinking-dots inline-flex gap-0.5">
-                    <span>.</span>
-                    <span>.</span>
-                    <span>.</span>
-                  </span>
-                </div>
-              </li>
-            )}
           </ul>
         )}
           </div>

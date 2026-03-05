@@ -1,0 +1,38 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/14c348f4363480e89131de8edfc4dfe8}} as of 2025-05-27T05:25:18.272Z:
+<page url="{{https://www.notion.so/14c348f4363480e89131de8edfc4dfe8}}">
+<ancestor-path></ancestor-path>
+<properties>
+{"title":"Codeless Techstack"}
+</properties>
+<content>
+<empty-block/>
+Co-founder: ChatGPT
+<empty-block/>
+Product:
+1. Bubble (Web app FE, BE, Hosting)
+2. Framer (Landing page)
+3. OpenAI (technical co-founder)
+4. Spline (3D animations)
+5. Postmark (email notifications)
+6. N8N (data automations)
+7. MidJourney (AI image generation)
+8. Cursor
+<empty-block/>
+<empty-block/>
+<empty-block/>
+Current Stack
+- Cursor 
+- UX Pilot 
+- N8N
+- OpenAI 
+- MidJourney 
+<empty-block/>
+<empty-block/>
+Sales: 
+- GHL 
+<empty-block/>
+Marketing: 
+- Klaviyo 
+<empty-block/>
+</content>
+</page>

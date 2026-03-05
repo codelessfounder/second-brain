@@ -1,0 +1,7 @@
+Here is the result of "view" for the Page:
+<page>
+<properties>{"title":"Resources"}</properties>
+<content>
+Product Almanac: complete guide to product management. PM Bootcamp: Co.Lab Product Manager bootcamp.
+</content>
+</page>

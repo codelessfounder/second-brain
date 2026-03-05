@@ -22,3 +22,6 @@ pnpm-debug.log*
 # OS
 .DS_Store
 Thumbs.db
+
+# Notion sync (may contain sensitive content)
+scripts/sync-notion-to-supabase/notion-export.json

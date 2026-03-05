@@ -1,0 +1,7 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/296ac4781ff44887a8b9e9bd1191d3c7}} as of 2025-02-07T02:42:00.183Z:
+<page url="{{https://www.notion.so/296ac4781ff44887a8b9e9bd1191d3c7}}">
+<properties>{"title":"Sales"}</properties>
+<content>
+Australia not end goal. No one cares about your product – they care about pain to pleasure. Subpages: Benefits, With vs Without, Dealer list, Video Walkthroughs, Demo script, Sales script, Profiling Qs, Leads. Sales call: Intro and profiling, Product Demo, Close and create account. Strategy: 1 month free trial, upload inventory, demonstrate. Lewis call: WJewel 250 USD/mo, interested in website API.
+</content>
+</page>

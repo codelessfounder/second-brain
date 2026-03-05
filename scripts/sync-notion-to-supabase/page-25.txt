@@ -1,0 +1,11 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/5dd1ec01450b41b5aa5b3ac18325c5cf}} as of 2024-08-26T04:37:41.244Z:
+<page url="{{https://www.notion.so/5dd1ec01450b41b5aa5b3ac18325c5cf}}">
+<properties>{"title":"Skills "}</properties>
+<content>
+Design: Landing Page, Nav bar, Footer, Element style, Dashboard, Sign in page, Log in page, Reusable elements, Pop Ups, Toggle button, Responsive design, Bubble GPT.
+Functionality: Repeating groups, Element conditions, Links, Search bar & Get page data from URL, Sign in/logout, Option sets, States, Custom events, State Lists, Custom states, User data privacy, Workflows, Dynamic table data, Search function, API connector, API workflows/backend API.
+Option sets: Create option set; Create element; Change "type of content" in element appearance to the name of the option set; Data source "all (option set name)". Option sets are referenced via the data type (e.g. current row's application's status's display).
+Sign in: Create sign in page; Set custom states for user types; Create New User Type in Data Tab; Set up workflow for each button; Add "sign user up" workflow; Add confirmation email.
+4 main factors that affect SEO: Performance, Accessibility, Best Practices, SEO. Use SVG images, WebP, ALT tags, internal linking (Link elements not buttons). Deployment checklist: Bubble app plan, Domain settings, SEO settings, Privacy rules, Test all user types.
+</content>
+</page>

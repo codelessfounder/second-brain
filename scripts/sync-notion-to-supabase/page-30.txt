@@ -1,0 +1,56 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/186348f4363480c6983bf3af0685c5b4}} as of 2025-12-08T01:02:42.583Z:
+<page url="{{https://www.notion.so/186348f4363480c6983bf3af0685c5b4}}">
+<ancestor-path></ancestor-path>
+<properties>
+{"title":"Skills"}
+</properties>
+<content>
+<empty-block/>
+<empty-block/>
+<table>
+<colgroup>
+<col width="345.006103515625">
+<col width="345.006103515625">
+</colgroup>
+<tr>
+<td>**Freelance Skill**</td>
+<td>**Required Software/Tools to Learn**</td>
+</tr>
+<tr>
+<td>App Development</td>
+<td>[Bubble.io]({{http://bubble.io/}}), Cursor, </td>
+</tr>
+<tr>
+<td>Wireframing / Figma Design</td>
+<td>Figma</td>
+</tr>
+<tr>
+<td>Landing Pages, Ecommerce Stores</td>
+<td>Framer, Cursor, Shopify</td>
+</tr>
+<tr>
+<td>SaaS / Founder Consulting</td>
+<td>Product Almanac</td>
+</tr>
+<tr>
+<td>SaaS Marketing</td>
+<td>Meta, Capcut</td>
+</tr>
+<tr>
+<td>Video Editing</td>
+<td>Adobe Premiere Pro CapCut, DaVinci Resolve</td>
+</tr>
+<tr>
+<td>Data Automation</td>
+<td>N8N</td>
+</tr>
+</table>
+<empty-block/>
+<empty-block/>
+Hard skills:
+<empty-block/>
+1. Full stack web apps 
+2. MCP tool integration 
+3.
+</content>
+</page>

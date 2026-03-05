@@ -1,0 +1,16 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/149348f436348056a2c8c6dddda4b2ee}} as of 2025-01-01T04:20:13.947Z:
+<page url="{{https://www.notion.so/149348f436348056a2c8c6dddda4b2ee}}">
+<ancestor-path>
+<parent-page url="{{https://www.notion.so/b192c34655774448b57be6a9012500ca}}" title="Business"/>
+</ancestor-path>
+<properties>
+{"title":"GIVECOIN"}
+</properties>
+<content>
+<page url="{{https://www.notion.so/149348f4363480609765df195837e43f}}">Our Charities </page>
+<page url="{{https://www.notion.so/149348f43634800ebad3f7b1dc89bae8}}">Minting Strategy (8.12b)</page>
+- Jupiter, Coinmarketcap
+Name: Give Token Symbol: GIVE
+13/12/2024: 8.2b GIVECOIN were minted
+</content>
+</page>

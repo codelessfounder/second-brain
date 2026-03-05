@@ -1,0 +1,14 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/19a348f43634807891dff01e6e61109c}} as of 2025-02-15T05:42:33.976Z:
+<page url="{{https://www.notion.so/19a348f43634807891dff01e6e61109c}}">
+<ancestor-path>
+<parent-page url="{{https://www.notion.so/196348f4363480e49441c5a6810e2994}}" title="Design"/>
+</ancestor-path>
+<properties>
+{"title":"UX"}
+</properties>
+<content>
+<empty-block/>
+<empty-block/>
+1. User goes to checkout. 2. User selects GamblePay. 3. New screen with wheel (company logo?). 4. Each basket item appears 1 by 1, new price in green or red (discount achieved). 5. Total owing at bottom. 6. Total savings below total owing. 7. Payment processed. 8. User taken to payment screen. Gamble Pay Screen: staggered anticipation – randomised offers slow down so user sees they *almost* win. Problem: how do we make this technically not gambling? Skill page: mini skill-based game before finalising transaction; outcome influences final bill amount (legal grey area).
+</content>
+</page>

@@ -1,0 +1,7 @@
+Here is the result of "view" for the Page:
+<page>
+<properties>{"title":"Content Calendar"}</properties>
+<content>
+Channels database. Content Calendar database (inline). Content pipeline and calendar views.
+</content>
+</page>

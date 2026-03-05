@@ -1,0 +1,7 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/104348f4363480179947f6a400fd713f}} as of 2024-10-09T05:53:21.831Z:
+<page url="{{https://www.notion.so/104348f4363480179947f6a400fd713f}}">
+<properties>{"title":"Stripe Integration"}</properties>
+<content>
+Bubble x Stripe videos Part 1 (app setup and pricing) and Part 2 (subscribing users). Configuring Stripe, building in Bubble, webhooks, API docs. Functionality: Create subscription, Update customer, Download invoices, Cancel/Delete subscription, Dunning, Update card, Upgrade/downgrade. Steps: products and option sets in Bubble, products in Stripe, copy product ID, API Connector with secret key, checkout session, parameters (mode, customer_email, line_items, metadata, success_url, cancel_url), pricing UI and CTA workflows, backend workflow Create subscription and update User, payment data type, retrieve invoice, checkout session workflows, webhook security (match Stripe IPs), customer portal, dunning (Stripe settings), manage plan, downgrade.
+</content>
+</page>

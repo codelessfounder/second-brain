@@ -1,0 +1,14 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/b95175f0e8744495a237e8d800101b44}} as of 2025-07-16T06:52:03.109Z:
+<page url="{{https://www.notion.so/b95175f0e8744495a237e8d800101b44}}">
+<properties>{"title":"Sales"}</properties>
+<content>
+Outreach templates, No-code rhetoric, Call notes, Script template.
+Sales Deck: Tell me about your idea; Do you know the user persona; How did you come about this idea; Who is this app for; What assumptions do you have; Why this MVP design; First time founder or launched before; Understanding of build process; Metrics for success.
+My Story: The problems I had as a founder; Why I started building apps; What I want to do to help other founders and business owners.
+Process: Design, Development, Revisions (1 round).
+Proposed features: Sign up/log in, Create a job (company), Create an application (user).
+Database set up: Users, Applications, Jobs, Companies.
+How we're different: Narrow Scope; Fast and effective (4-6 weeks); Wide scope of tech stacks; Milestone-based payments.
+Lead pipeline marketplaces: LinkedIn, X, Upwork, Contra, Freelance.com, Fiverr.
+</content>
+</page>

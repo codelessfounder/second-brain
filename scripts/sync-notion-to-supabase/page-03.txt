@@ -1,0 +1,58 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/63e19b096357436c8e94f3d267004c35}} as of 2026-02-20T01:06:01.158Z:
+<page url="{{https://www.notion.so/63e19b096357436c8e94f3d267004c35}}" icon="🗄️">
+<ancestor-path></ancestor-path>
+<properties>
+{"title":"Dump"}
+</properties>
+<content>
+<empty-block/>
+Blender for game design
+<empty-block/>
+Jaz bday: adventure time box set 
+British Shorthair Seal Point Coat 
+<empty-block/>
+Notion MCP
+<empty-block/>
+N8N MCP 
+<empty-block/>
+The quick brown fox jumped over the e lazy dog 
+<empty-block/>
+Jumping wizards 
+<empty-block/>
+[trybotanic.com]({{http://trybotanic.com}}) hair rollon 
+<empty-block/>
+<empty-block/>
+Mike B YES
+Ben BJ YES 
+Callum and Sophia YES 
+Henry and Ash YES 
+Cole YES Fri 
+Jules and Nadine YES
+Jarrah and Liv YES SAT
+Mike and Lily YES
+Jordan and Ruby YES
+Harry and Via YES 
+Jimmy and Georgia NO 
+<empty-block/>
+<empty-block/>
+<empty-block/>
+<empty-block/>
+Lao Gan Ma - Chilli paste 
+Shirataki noodles
+<empty-block/>
+LED gaming projector 
+High ANSI lumens 
+Laser projectors are the best 
+Long throw vs short throw ratio: 1-1.5 versus 0.5-0.7
+Screen gain (blacks and brightness) (0.7-1.1)
+Resolution isn't everything
+Make sure to check resolution 
+Smart OS isn't necessary, just get a fire stick 
+Keystoneing and image correction are important 
+Optoma HD29HST
+epson eb-685w is the one to get. 
+Epson CO-FH02
+<empty-block/>
+<empty-block/>
+</content>
+</page>

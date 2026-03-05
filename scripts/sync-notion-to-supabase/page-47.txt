@@ -1,0 +1,15 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/20a348f4363480bd9d68f707fe44652c}} as of 2025-06-06T05:53:52.414Z:
+<page url="{{https://www.notion.so/20a348f4363480bd9d68f707fe44652c}}">
+<ancestor-path>
+<parent-page url="{{https://www.notion.so/18b348f436348000a2aac0dacd670ea7}}" title="Dump"/>
+</ancestor-path>
+<properties>
+{"title":"UX development plan"}
+</properties>
+<content>
+<empty-block/>
+Discopay is a Firefox browser extension: scrapes eCommerce cart totals, prompts user to risk equal amount in crypto, double-or-nothing coin flip. Win = crypto to pay cart; loss = user decides whether to buy.
+## UX Flow: Checkout → Extension reads cart → "Try to get your cart for free" → Connect wallet / top up → Wager, heads/tails → Animated flip → Win: +100% payout; Loss: -100%.
+## Development Plan: 1. Extension shell & cart detection (Shopify, WooCommerce). 2. Popup (cart total, Connect Wallet, states). 3. Wallet (WalletConnect/MetaMask, balance). 4. Flip game UI (Lottie/Framer Motion, server flip). 5. Backend (provably fair). 6. Payment recommendation (win/loss guidance). 7. Fail safes (no cart, insufficient crypto). 8. Legal disclaimers. Timeline: 6 weeks (cart scraping → wallet → flip → guidance → polish → testing). X Flow with mapped features: cart display, wallet UI, flip interface, terms modal, animation, win/loss screens, cooldown, post-flip guidance.
+</content>
+</page>

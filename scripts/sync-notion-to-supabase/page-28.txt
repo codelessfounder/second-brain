@@ -1,0 +1,7 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/cf0fd0b8bc0b4611b8a7ddd34d5ae850}} as of 2024-10-14T15:18:56.269Z:
+<page url="{{https://www.notion.so/cf0fd0b8bc0b4611b8a7ddd34d5ae850}}">
+<properties>{"title":"Idea Dump"}</properties>
+<content>
+App Boxer, Uncoded, Appomate, Bark, App gurus, EB Pearls, Appifany, No-code.au, Pollen, Digiground, Rocket Lab, Butterfly, 23Digital, Moonward, 4mation. Landing Page: Header (Home, Services, About Us), Hero Section, CTA Book Free Initial Consultation, Video, Development process (Discovery, UX/UI design, Mobile App Development, Launch, Support), Case studies, Bear Tech vs Other Agencies. Site inspiration: Goodspeed, Strabo, Not Quite Unicorns, Antimetal, Ecomflow, Link. Suds: innovation time (1-2hrs for personal projects for IP share), Suds academy (apprenticeship in app building). Replica apps: Airbnb, Reddit, Chess.com. Creating apps is modern day building. Builder = App agency, Carpenter = developer, Architect = Product Designer. domain: suds.world. Harry harrycharlesworth99@gmail.com Whatsapp: +61426699881.
+</content>
+</page>

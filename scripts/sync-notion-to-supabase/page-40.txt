@@ -1,0 +1,14 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/263348f4363480a0bef3eabd211975e8}} as of 2025-09-03T02:51:58.013Z:
+<page url="{{https://www.notion.so/263348f4363480a0bef3eabd211975e8}}">
+<ancestor-path></ancestor-path>
+<properties>
+{"title":"Compliance"}
+</properties>
+<content>
+<empty-block/>
+<page url="{{https://www.notion.so/263348f4363480cab93ac2347d5b3a38}}">Cost breakdown </page>
+---
+# Summary:
+Entity & Licence: Parent/Holding Co. Costa Rica (zero corporate tax if no local activity). Holds Anjouan licence. Payment Agent Co. Cyprus – contracts with banks & PSPs, fiat/crypto settlement. Timeline: Costa Rica 5 days + 20 days prep; Anjouan 4–6 weeks; Cyprus ~12 days; Bank +30 days. Total go-live ~3 months. RNG Certification: GLI/iTech ~2 months ~€5k; Global Labs ~2 weeks ~€5k. Market entry: Start Canada, Nordics, NZ, South Africa. Avoid US/UK/NL/France/Spain (geo-block); AU/DE/AT (litigation risk); India (fraud); Brazil (€5m licence). Big picture: Curacao no longer easy default; Anjouan current offshore favourite; banking/PSPs need Cyprus payment-agent; two-entity design for cashflow/tax. Licensing landscape: Curacao new regime ~€110k, 7–8 months; Anjouan 2–3 months, lighter compliance, Evolution whitelisted. Structure: Costa Rica parent + Anjouan licence; Cyprus payment-agent; funds flow PSP → Cyprus bank / cold wallet; revenue to CR parent. Costs: CR + Anjouan €32,900; Cyprus €5,450; Bank onboarding €2,950; total ≈ €41,300. RNG: mandatory, ~€5k, company name formed first. Market selection: Canada, Nordics, NZ, SA start; Eastern Europe/CIS later; avoid US/UK/AU/India/Brazil initially. Payments: PSPs won't sign with offshore entity – use Cyprus. Acquisition: Affiliates + influencers. Action checklist: Adopt CR + Anjouan + Cyprus; form CR, start RNG cert, form Cyprus; then banking/PSPs; markets Canada → Nordics → NZ → SA; build affiliate program.
+</content>
+</page>

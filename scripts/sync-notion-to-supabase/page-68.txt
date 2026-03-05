@@ -1,0 +1,7 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/149348f4363480069a79d204b68be488}} as of 2024-11-25T04:58:16.212Z:
+<page url="{{https://www.notion.so/149348f4363480069a79d204b68be488}}">
+<properties>{"title":"Development cost (breakdown)"}</properties>
+<content>
+Cheapest way to deploy Givecoin (GIVE) on Solana. Table: Token Smart Contract $0 ~2h; Token Deployment ~$0.20 ~30m; Wallet ~$0.10 ~30m; Website ~$50/year 1-2 days; Donation Tracking $0 ~1h; Social Media $0 1 day; Airdrop ~$10 ~3h; Content $0 1-2 days; Total ~$60.30 3-5 days. Development: SPL token, Metaplex, charity wallet, skip audit initially. Blockchain: spl-token create-token, mint supply, token accounts. Infrastructure: simple site, Solscan for donation tracking. Marketing: Twitter Telegram Discord, airdrop, Canva. Cut costs: free resources, minimal marketing, delay airdrops. Conclusion: under $100 to deploy on Solana.
+</content>
+</page>

@@ -1,0 +1,7 @@
+Here is the result of "view" for the Page:
+<page>
+<properties>{"title":"Disco Whitepaper"}</properties>
+<content>
+Executive Summary - Disco, August 2025. Online gaming is saturated; Disco contextualises gaming around real purchases. Users play casino games to cover actual spend (e-commerce, luxury, travel). Gen Z and millennials seek immediacy and interactivity. Disco's moat: AI-driven contextualisation; AI image analysis converts purchases into bet sizes. Hypothesis: People are willing to gamble to pay for their purchases. Disco: first online casino where players gamble for discounts on anything they are buying. Users scan the item; AI identifies product and price. GTM: marketing flywheel, paid influencers. Metrics: Play Frequency per User, Purchase Context Attachment Rate, Scan-to-Play Time, Social Lift. Capital need: for marketing flywheels, two full-time engineers, Anjouan licence. DISCO WHITEPAPER.
+</content>
+</page>

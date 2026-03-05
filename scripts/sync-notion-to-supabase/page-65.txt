@@ -1,0 +1,7 @@
+Here is the result of "view" for the Page:
+<page>
+<properties>{"question":"How can I find English-speaking doctors in Germany?","answer":"You can use websites like Doctolib to find English-speaking doctors. Many general practitioners (Hausarzt) and specialists in larger cities like Berlin also speak English.","department":"HR","tags":["Expat","Healthcare","HR"]}</properties>
+<content>
+Company Knowledge Base Q&A. This page is blank and has no content.
+</content>
+</page>

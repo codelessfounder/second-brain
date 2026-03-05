@@ -1,0 +1,7 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/136348f436348031862df594359b037a}} as of 2024-11-10T07:08:24.348Z:
+<page url="{{https://www.notion.so/136348f436348031862df594359b037a}}">
+<properties>{"title":"Demo script"}</properties>
+<content>
+Hi everyone, Harry from Watchcrow. Three main ways people use us: 1) Organising watch inventory – consolidate all watches and details in one place, edit easily, team on same page. 2) Share available stock – dynamic link in bios/broadcast groups, customers view 24/7 and make offers, fewer "is this available" questions. 3) Real-Time Sales Metrics – analytics dashboard, mark sold, view revenue profit engagement, daily monthly yearly, view offers and contact buyers faster. New features in the works. Get in touch or create an account.
+</content>
+</page>

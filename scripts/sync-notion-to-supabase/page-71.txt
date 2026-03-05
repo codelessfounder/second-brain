@@ -1,0 +1,7 @@
+Here is the result of "view" for the Page:
+<page>
+<properties>{"title":"Volintern"}</properties>
+<content>
+Startup connecting businesses with unemployed people who work for free in exchange for learning a skill over a few months. Business gets free labour; apprentice gets skill for job or continued employment. Jobs: Engineers, Designers, PMs, Content writers, Data Scientists. Solves: information asymmetry (employer belief vs actual skill), presentation of skills to employers. Take rate: Businesses $50/month min 1 year; Workers free until chosen then $100 to connect; Recruiters $1/month commission. Master work at end of contract. Product strategy: Skill acquisition, Recruiters. Loans: First Electronic bank. Graduates upskill then work for free in target industry.
+</content>
+</page>

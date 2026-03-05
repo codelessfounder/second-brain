@@ -1,0 +1,7 @@
+Here is the result of "view" for the Page:
+<page>
+<properties>{"title":"Intro meeting template:"}</properties>
+<content>
+Introductory meeting structure: 1. Brief non-business topic (Sales Navigator, Tennis) 2. Profiling questions 3. Insights 4. Hypothesis 5. Product intro 6. Product demo 7. Success Metrics 8. Raise amount 9. Questions, feedback and next steps. Framing an early investor conversation: unique insight, how I came across it, hypothesis, what I built to test it (product), how I will test it (GTM), how I will measure success (metrics), how much I need. Profiling questions (iGaming background, recent investments, gambling, trends, SkinsArena, tech stacks, Rolling Dice, payments, product team quality, funding structure). My insight: people receptive to gambling and betting, normalised; Stake/Rainbet, Polymarket, Coverd. My hypothesis: People are willing to gamble to pay for their purchases. Product: Disco - first online Casino where players play casino games to bet on any purchase; AI scans purchase, analyses image, returns item and cost, contextualising the game. How we test/measure: flywheel of marketing videos, play frequency per user, Purchase Context Attachment Rate, Scan-to-Play Time, Social Lift. Raising $700k: Marketing 150k, Engineering 300k, licensing and legal 150k, Bankroll $100k. Raising from VIM: questions to answer (enough people, sticky behaviour, link to everyday purchases). Questions, feedback and next steps list. Notes: crypto streamers, prize boxes scale fast, Hypedrop, parlays.
+</content>
+</page>

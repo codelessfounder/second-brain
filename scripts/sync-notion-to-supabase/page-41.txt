@@ -1,0 +1,20 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/278348f436348092af2ecdadd2364965}} as of 2025-09-24T09:28:34.274Z:
+<page url="{{https://www.notion.so/278348f436348092af2ecdadd2364965}}">
+<ancestor-path>
+<parent-page url="{{https://www.notion.so/251348f436348030a2bed140aa8b6afa}}" title="Fundraise"/>
+</ancestor-path>
+<properties>
+{"title":"Customer Acquisition Strategy"}
+</properties>
+<content>
+<empty-block/>
+<empty-block/>
+## Marketing & Revenue Strategy (18–24 Months)
+Influencer & Creator Loops 35% – TikTok/Twitch creators, affiliate CPA/rev-share, sneaker/esports collabs. Paid Performance 25% – TikTok/IG/YouTube ads, retargeting. Community Building 20% – Discord/TG leaderboards, flip battles, meme contests. Referrals 10% – double-sided referral flips. Partnerships 10% – sneaker drops, esports, crypto wallet collabs.
+# CAC → LTV Framework
+Target CAC $50–$75; Target ARPU $300–$400/year; Payback <90 days; LTV:CAC 4–5x.
+## Revenue Forecast (House Edge 10%)
+Conservative: 10k MAUs, $50 avg bet, 4 bets/user/month → $2.4M annual. Mid: 50k MAUs, $75, 6 → $27M. Aggressive: 100k MAUs, $100, 8 → $96M.
+Minimum CAC raise: $75 CAC, $750k–$1M marketing → 10k–13.3k users, $2.4M–$3.2M annual revenue, ~3.2x ROI on CAC. UGC Creator partnerships – example videos list (TikTok/Instagram reels).
+</content>
+</page>

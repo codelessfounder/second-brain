@@ -1,0 +1,7 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/200348f43634812c8789e01119ba8c0d}} as of 2025-05-27T03:49:34.529Z:
+<page url="{{https://www.notion.so/200348f43634812c8789e01119ba8c0d}}" icon="❓">
+<properties>
+{"answer":"To configure MFA, log into the Okta portal at https://internal.starlens.ai/okta and follow the prompts to set up your second factor (e.g., mobile app, SMS, or security key). This is mandatory for accessing all company systems remotely. Detailed setup instructions can be found on the IT support page.","question":"How do I configure Okta Multi-Factor Authentication (MFA)?","department":"IT","tags":["MFA","Okta","Security","IT"]}
+</properties>
+<blank-page>This page is blank and has no content.</blank-page>
+</page>

@@ -1,0 +1,13 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/1d2348f4363480c08e70f00f36f7826a}} as of 2025-08-16T09:43:41.348Z:
+<page url="{{https://www.notion.so/1d2348f4363480c08e70f00f36f7826a}}">
+<ancestor-path></ancestor-path>
+<properties>
+{"title":"Customer discovery"}
+</properties>
+<content>
+<empty-block/>
+Data:
+<page url="{{https://www.notion.so/1d2348f43634808fa6a9ef8a2ed416f1}}">Business model simulations</page>
+Feedback: Emma; Ben – wanted odds per discount, explain pricing possibility, make it red when user loses. Customer interviews list: Ben, Lewin, Jeremy, Drew, Lenny, Efe, Gullik, Jon, Aamir, Kaif, Killalias, Bella, Rehan, Henry Page, Marius, Kash, Jaz, Marnie, Miki, Emma, Marley, Mitch Walker, Margot Laussuqc. Learnings: playing again needs to be easier; staking actual money not super clear; can't keep playing is a selling point – clear in UI; don't mention stake.com; only say "you look young" to young people; unclear if you pay for item with Disco; not clear you have to click pay to start game. Customer questions: how is price determined? Is there a max bet (e.g. scan a car)?
+</content>
+</page>

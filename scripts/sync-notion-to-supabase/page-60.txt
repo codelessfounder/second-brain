@@ -1,0 +1,7 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/141348f436348029a627dafceff9159b}} as of 2025-01-22T23:48:14.769Z:
+<page url="{{https://www.notion.so/141348f436348029a627dafceff9159b}}">
+<properties>{"title":"Features"}</properties>
+<content>
+Feature: Add to Inventory. Feature: Analytics. Feature: Landing page. Feature: Offers. Feature: Onboarding. Feature: Shared_watch shared inventory. Feature API. Feature: Notifications. Feature: Teamspace. Feature: Xero integration.
+</content>
+</page>

@@ -1,0 +1,7 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/104348f43634808cb151e80a08581c85}} as of 2024-11-17T05:23:54.542Z:
+<page url="{{https://www.notion.so/104348f43634808cb151e80a08581c85}}">
+<properties>{"title":"Website Payment API"}</properties>
+<content>
+Turn Bubble app into API; external sites embed clickable element redirecting to payment screen. Step 1: Enable API in Settings, define API Workflows for reserve/pay. Step 2: Generate embedded link with watch_id and dealer_id params. Step 3: Payment page reads params, fetches watch details, Stripe or payment plugin. Step 4: Dealer dashboard to generate HTML embed code. Flow: dealer embeds button, customer clicks Pay with Watchcrow, redirects to Bubble payment page, pay securely. Like Pay with Afterpay.
+</content>
+</page>

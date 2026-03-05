@@ -1,0 +1,7 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/14093801541449cdb3252a8bd5e810ea}} as of 2024-04-29T07:41:28.961Z:
+<page url="{{https://www.notion.so/14093801541449cdb3252a8bd5e810ea}}">
+<properties>{"title":"The Lonely Founder"}</properties>
+<content>
+**Quotes:** Idea: Instagram page that compares run of the mill quotes to insightful and profound quotes by successful startups founders. Failure is a prerequisite to learning - Eric Reis. A startup's runway is the number of pivots it can still make - Eric Reis. Sources: Chris Saad, Marty Cagan, Bill Campbell, Eric Reis, Sam Altman, Steve Jobs, Mark Zuckerberg, Slack Founder, AirBnB founder, Startup Archive, Alex Hormozi, Marc Andreessen, Mark Cuban, John Ive.
+</content>
+</page>

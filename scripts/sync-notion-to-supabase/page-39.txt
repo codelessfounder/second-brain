@@ -1,0 +1,31 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/2ae348f43634802bbdfbd421bec40a6d}} as of 2025-11-17T07:07:39.717Z:
+<page url="{{https://www.notion.so/2ae348f43634802bbdfbd421bec40a6d}}">
+<ancestor-path>
+<parent-page url="{{https://www.notion.so/251348f436348030a2bed140aa8b6afa}}" title="Fundraise"/>
+</ancestor-path>
+<properties>
+{"title":"Cap Table"}
+</properties>
+<content>
+<empty-block/>
+<empty-block/>
+## **Math of a $5M SAFE @ $30M Cap**
+- Conversion at Series A =30M5M=16.7%
+- So you're effectively selling ~17% of the company in the seed.
+- That's **reasonable founder dilution** — actually cleaner than $20M cap (25%) and not as aggressive as $40M (12.5%).
+---
+### **Investor Perspective**
+- **Pros**: $30M cap means you're valuing yourself ambitiously but not absurdly. If you have strong traction / big vision, investors will accept it. Still leaves enough ownership upside for them if Series A is at $80M–$100M+.
+- **Cons**: If you're pre-product or pre-revenue, some will push back. They may ask: "What milestones will you hit with this $5M that justify Series A at $60–$100M?"
+---
+### **Benchmarks (Seed Market 2025)**
+- **Pre-seed**: $5M–$15M caps common for idea/MVP stage.
+- **Seed**: $20M–$40M caps increasingly normal if you have traction, solid team, hot market.
+- **Top-tier**: $50M+ caps at seed do happen with brand-name founders or rocketship growth.
+---
+### **How to Frame $30M Cap**
+- **Don't apologise** — position as fair and market-standard. **Point to milestones**. **Show comps**.
+---
+✅ Conclusion: **$5M SAFE @ $30M cap is ambitious but not crazy.** Bottom up fundraise model table: CAC, Compliance & Legal, Team & Product, Ops & Buffer; Total Raise $2.65M–$3.8M. Recommended: **Minimum credible ask $3M**, **Optimal $3.5M–$4M**. Investor narrative: at $75 CAC, $1.5M marketing acquires ~20k users; $240/user/year → $5–10M ARR. TEN13 questions: thesis, process, portfolio, value-add, next steps.
+</content>
+</page>

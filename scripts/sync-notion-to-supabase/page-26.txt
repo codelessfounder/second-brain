@@ -1,0 +1,10 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/18a348f4363480f68bd3e4e23f5631ad}} as of 2025-08-06T07:03:05.650Z:
+<page url="{{https://www.notion.so/18a348f4363480f68bd3e4e23f5631ad}}">
+<properties>{"title":"N8N"}</properties>
+<content>
+Guide: Selling N8N Workflows. N8N Job Post, N8N Advanced Course, Reddit Customer Feedback Workflow. Automation: Text to google calendar event. Linkedin SDR Lead Scraper.
+Benefits of N8N: "a predictable set of predetermined actions that transfer data from one point to another". Workflow parameters: 1. Trigger (When, frequency) 2. Filter (Condition, "Only when…") 3. Action (Update a google sheet, send an email). Steps to create: Mapping, Feasibility testing, Tools needed, Create flowchart (e.g. Miro).
+Webhooks and APIs: Components of a request - URL, Method (GET, POST, DELETE, PUT), Header, Body, Credentials. Components of a response - Status code (200 OK, 401 Unauthorized, 404 Not found, 500), Header, Body (JSON, HTML). Webhooks: one system automatically sends real-time data to another when an event occurs (e.g. Stripe payment made).
+Nodes: 3 categories - Entry points (triggers), Function (filters), Exit points (applications). N8N Data Concepts: JSON (key:value pairs, can be embedded), Lists (collection of objects). Item execution: each node executes once per item. Expressions: plain text + item variables + JavaScript. Useful nodes: Edit fields (set), Aggregate, Webhook. Error handling: Error workflow, Error node, Error trigger. Debugging: pin data from execution history; Retry feature; Edit output.
+</content>
+</page>

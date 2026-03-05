@@ -1,0 +1,7 @@
+Here is the result of "view" for the Page:
+<page>
+<properties>{"title":"Content Calendar"}</properties>
+<content>
+Database: Content Calendar. Data source: Name, Channel (relation), Publish Date, Status (Backlog, New, Research, Filming, Editing, Ready to Publish, Scheduled, Published, Cancelled), Format (Carousel, Text-Based, Single Image, Long-form Video, Short-form Video, Polls and Questions), Published Link. Views: Today, Upcoming (group by month), This Week (calendar), Calendar.
+</content>
+</page>

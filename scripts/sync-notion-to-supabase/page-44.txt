@@ -1,0 +1,20 @@
+Here is the result of "view" for the Page with URL {{https://www.notion.so/25a348f43634804fa4bdf8299ec3119a}} as of 2025-11-17T06:58:57.784Z:
+<page url="{{https://www.notion.so/25a348f43634804fa4bdf8299ec3119a}}">
+<ancestor-path>
+<parent-page url="{{https://www.notion.so/251348f436348030a2bed140aa8b6afa}}" title="Fundraise"/>
+</ancestor-path>
+<properties>
+{"title":"VIM/Investors"}
+</properties>
+<content>
+<empty-block/>
+A vested interest market gains disproportionately if your company succeeds (economic, strategic, cultural). Disco's VIM: anyone who makes money from online gambling or benefits from gamified consumer behaviour.
+## 1. High-volume affiliates in online gambling – recurring revenue, always seeking new casinos, have cash.
+## 2. Crypto-native gambling whales + syndicates – high risk tolerance, angel investors, want early access.
+## 3. Software providers (iGaming) – game studios, slot/RNG providers, payment processors; non-dilutive support, strategic investment.
+## 4. Influencers and creators (casinoification niche) – streamers, TikTok, meme pages; spread culture.
+## 5. Payments + fintech adjacent to high-risk merchants – crypto processors, PSPs, KYC/AML; invest in high-potential merchants.
+## 6. Degenerate consumer communities – Subreddits, Discords, Telegram; want their casino, exclusive odds.
+Specialist funds: Velo Partners, Sharp Alpha, HBSE, Yolo Investments, Hiro Capital. Strategic: Flutter, Entain, MGM, DraftKings, Kindred, 888. Crypto VCs: Polychain, Mechanism, Delphi, Multicoin, Pantera, Framework. Geography: Malta, Gibraltar, Curacao, Isle of Man, Vegas, Philippines, LatAm. Find them: ICE London, SiGMA, LinkedIn, Crypto Twitter, DeckMatch, Stonks, Allocate. Reality: lean into crypto VCs, gambling specialists, strategic operators; emphasise profitability, scalability, regulatory plan. Investors table: Lance East, Velo Capital, XST Capital, Lightning Capital, Drive, Sharp Alpha, HSBE, YOLO, Hiro, Flutter, Play VC, Konvoy, Wonder, Lumikai, Kakao, Serena, BITKRAFT, WndrCo, Andover, Aura, a16z, North Zone, Bessemer, Atomico, The Games Fund.
+</content>
+</page>
